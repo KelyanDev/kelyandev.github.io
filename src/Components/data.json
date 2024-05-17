@@ -1,0 +1,202 @@
+{
+    "Syst": {
+        "circleStyle": "calc((502 * (100 - 75)) / 100)",
+        "circleText": "75%",
+        "description": [
+            "<h4>Administration de systèmes et d'utilisateurs</h4>",
+            "<hr />",
+            "<p class='text'> Lors de nombreux TD et TP, j'ai eu l'occasion d'apprendre l'administration de systèmes comme Windows ou Linux, et de leurs utilisateurs.</p>",
+            "<p class='text'> En effet, j'ai eu l'occasion d'apprendre comment gérer les utilisateurs d'un système Windows mais aussi d'un système Linux, en gérant leurs droits, les disques auxquels ils ont accès, et leurs quotas. J'ai également eu l'occasion d'apprendre à gérer un service Active Directory sur un serveur Windows </p>",
+            "<p class='text'> J'ai également appris à mettre en place des solutions de sauvegardes grâce à l'outil Rsync.</p>",
+            "<hr />",
+            "<p class='text resume'><b>Administration système</b> / <b>Windows</b> / <b>Linux</b> / <b>Active Directory</b> / <b>Rsync</b></p>",
+            "<br />",
+            "<h4>Virtualisation et conteneurisation de serveur</h4> <hr />",
+            "<p class='text'> Lors de nombreux TD et TP, j'ai eu l'occasion d'apprendre la virtualisation et la conteneurisation de serveurs. </p>",
+            "<p class='text'> En effet, j'ai appris lors de certains TP à virtualiser des serveurs à l'aide de différents outils comme Virtualbox et VMWare ESXi, à configurer un réseau NAT virtuel pour ces machines, avec un service DHCP. J'ai par la suite appris à configurer ces serveurs afin de réserver une partie des ressources",
+            "physiques de ces serveurs pour des VMs. Enfin, j'ai appris à utiliser le Datastore afin de trouver des VM, mais aussi à utiliser des outils de supervision et de sauvegarde à distance grâce à l'outil Veeam. </p>",
+            "<p class='text'> J'ai également appris à conteneuriser des serveurs grâce à l'outil Docker sous Linux </p> <hr />",
+			"<p class='text resume'><b>Virtualisation</b> / <b>Conteneurisation</b> / <b>VirtualBox</b> / <b>VMWare</b> / <b>Docker</b></p>"
+        ]
+    },
+    "Progra": {
+        "circleStyle": "calc((502 * (100 - 90)) / 100)",
+        "circleText": "90%",
+        "description": [
+            "<h4>Programmation</h4> <hr />",
+			"<p class='text'> Lors de Projets et dans le cadre de ma Terminale spécialité NSI, j'ai appris la programmation python.</p>",
+			"<p class='text'> En effet, j'ai découvert la programmation Python lors de mon année de Première. J'ai par la suite pu renforcer grandement mes compétences",
+			    "lors de mes projets, notamment mon projet de Terminale, mais aussi lors de mes projets de BUT.</p>",
+			"<p class='text'> J'ai également appris à traiter les données d'un fichier excel grâce à la librairie Pandas.</p> <hr />",
+			"<p class='text resume'><b>Programmation</b> / <b>Python</b> / <b>Pandas</b> / <b>Traitement de données</b></p> <hr />",
+			"<br />",
+			"<h4>Programmation Web</h4> <hr />",
+			"<p class='text'> Lors de Projets et dans le cadre de ma Terminale spécialité NSI, j'ai appris la programmation web</p>",
+			"<p class='text'> J'ai découvert la programmation web lors de mon année de Terminale, puis j'ai grandement renforcé mes compétences lors de mon BUT lors de la réalisation",
+				"de projets, avec pour exemple ce portfolio. J'ai également appris à créer et gérer une base de données MySQL depuis une page PHP, mais aussi en utilisant NodeJS ainsi que MongoDB.</p>",
+			"<p class='text'> J'ai également appris de nouveaux frameworks web, avec par exemple le React, mais aussi des extensions CSS comme le Sass.</p> <hr />",
+			"<p class='text resume'><b>Web</b> / <b>HTML</b> / <b>CSS</b> / <b>JavaScript</b> / <b>React</b> / <b>PHP</b> / <b>MySQL</b> / <b>NodeJS</b> / <b>MongoDB</b></p>"
+        ]
+    },
+    "Conf": {
+        "circleStyle": "calc((502 * (100 - 85)) / 100)",
+        "circleText": "85%",
+        "description": [
+            "<h4>Configurer un réseau et ses équipements</h4> <hr />",
+            "<p class='text'> Lors de nombreux TP, j'ai appris à mettre en place et configurer différents équipements réseaux.</p>",
+            "<p class='text'> En effet, j'ai eu l'occasion de configurer certains équipements réseaux tels que des routeurs, des commutateurs, des bornes wifi ou de simples ordinateurs,",
+                "mais aussi différents serveurs de service comme DHCP, FTP, Web ou autres, dans un premier temps sur Cisco PacketTracer, puis ensuite sur de vrais équipements.</p>",
+            "<p class='text'> J'ai également appris le fonctionnement de différentes méthodes de routage, comme le RIP ou encore l'EIGRP.</p> <hr />",
+            "<p class='text resume'><b>Réseaux</b> / <b>Cisco</b> / <b>Borne Wifi</b> / <b>Routeurs & Commutateurs</b></p>"
+        ]
+    },
+    "Analy": {
+        "circleStyle": "calc((502 * (100 - 65)) / 100)",
+        "circleText": "65%",
+        "description": [
+            "<h4>Analyse de signaux</h4> <hr />",
+            "<p class='text'> Lors de nombreux TD et TP, j'ai eu l'occasion d'apprendre à observer des signaux électriques</p>",
+            "<p class='text'> En effet, j'ai eu l'occasion d'utiliser des oscilloscopes et des générateurs de fonction afin d'observer des signaux électriques,",
+                "dans différentes situations, avec l'exemple des signaux des canaux TnT, ou encore d'un signal à l'intérieur d'une paire torsadée d'un câble Ethernet.",
+                "J'ai par la suite appris à observer le spectre d'un signal, comme des signaux sinuisoïdaux ou encore des signaux carrés.</p>",
+            "<p class='text'> J'ai également étudié les notions liées aux câbles de fibre optique.</p> <hr />",
+            "<p class='text resume'><b>Signaux</b> / <b>Fibre</b> / <b>Câbles à paire torsadées</b></p>"
+        ]
+    },
+    "Tél": {
+        "circleStyle": "calc((502 * (100 - 75)) / 100)",
+        "circleText": "75%",
+        "description": [
+            "<h4>Téléphonie</h4> <hr />",
+			"<p class='text'> Lors de nombreux TD et TP, j'ai eu l'occasion d'apprendre le fonctionnement ainsi que la mise en place d'un service téléphonique.</p>",
+			"<p class='text'> En effet, j'ai découvert les bases de la Téléphonie IP, et j'ai également eu l'occasion de configurer des téléphones numériques ainsi que ",
+				"des téléphones analogiques, mais aussi des calls serveurs, afin de permettre la communication entre deux postes téléphoniques.</p>",
+			"<p class='text'>J'ai également appris à configurer un trunk SIP afin de permettre l'accès au réseau public</p> <hr /> ",
+			"<p class='text resume'><b>Téléphonie</b> / <b>Call servers</b> / <b>Téléphones numériques, analogiques</b> / <b>Intégration téléphonie mobile</b> / <b>Trunk SIP</b> </p>"
+        ]
+    },
+    "Lang": {
+        "circleStyle": "calc((502 * (100 - 0)) / 100)",
+        "circleText": "--",
+        "description": [
+            "<h4> Langues </h4> <hr />",
+			"<p class='text'> Lors de mes différentes années d'études, j'ai eu l'occasion d'apprendre certaines langues</p>",
+			"<p class='text'> En effet, j'ai appris l'anglais en regardant des vidéos ou en jouant à des jeux, et j'ai appris l'espagnol lors de mes années de",
+			    "collège et de lycée.</p>",
+			"<p class='text'> Ainsi, au fil des années, j'ai acquis un niveau B2/C1 en anglais ainsi qu'un niveau B1 en espagnol</p> <hr />",
+			"<p class='compR text resume'> <b>Anglais - B2/C1</b> / <b>Espagnol - B1</b> </p>"
+        ]
+    },
+    "RToDo": {
+        "description": [
+            "<h3 class='souligne'> Application React (Projet personnel)</h3>",
+            "<div class='descript'>",
+            "<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet en autonomie dans un cadre personnel, afin de renforcer mes compétences en programmation.</p>",
+            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de mettre en place une application JavaScript en utilisant uniquement le framework React, ainsi que l'extension Javascript JSX. </p>",
+            "<p class='texte'><b class='souligne'>Mission:</b> Ma mission était donc de découvrir le fonctionnement de ce framework afin de réaliser une ToDoList en full React. </p>",
+            "<p class='texte'> Ce projet est toujours en cours, et je compte améliorer mon application afin qu'elle fournisse des solutions plus intéressantes pour les utilisateurs </p>",
+            "<p class='texte'> Ainsi, je compte l'améliorer en ajoutant une solution de sauvegarde, en ajoutant un filtre et potentiellement un .exe pour lancer l'appli</p> <br />",
+            "<p class='texte italique'>Images du projet: (L'interface, une parti du code, le readme)</p>",
+            "<div class='aligne'>",
+                "<img src='ScreenProjets/React1.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+                "<img src='ScreenProjets/React3.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+                "<img src='ScreenProjets/React2.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+            "</div> <br> <br> </div>"
+        ]
+    },
+    "Ticket": {
+        "description": [
+            "<h3 class='souligne'> Application de gestion de tickets de support DSI (SAE23)</h3>",
+			"<div class='descript'>",
+			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet au cours d'une SAE, afin de découvrir l'environnement NodeJS.</p>",
+			"<p class='texte'> <b class='souligne'>Objectif:</b> L'objectif de ce projet était de mettre en place un outil de support pour le service informatique de l'université, en créant un site web de gestion",
+				"de tickets de support. </p>",
+			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de coder la partie <b>backend</b> du site, afin qu'un utilisateur puisse créer un ticket,",
+				"suivre son avancement, ou encore le supprimer, mais aussi afin qu'un administrateur puisse les gérer, contacter l'utilisateur et les affecter à un technicien support. </p>",
+			"<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet comment gérer et interroger une base de données MongoDB en utilisant NodeJS ainsi que le framework Express</p> <br />",
+			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet sera téléchargeable via mon GitHub, depuis la section contact</p>",
+			"<p class='texte'>Pour ce projet, je n'ai pas encore été noté</p> <br />",
+			"<p class='texte italique'>Images du projet: ()</p>",
+			"<div class='aligne'>",
+			"</div> <br> <br> </div>"
+        ]
+    },
+    "Vacation": {
+        "description": [
+            "<h3 class='souligne'>Analyse de données (SAE15)</h3>",
+			"<div class='descript'>",
+			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet au cours d'une SAE, afin d'apprendre à gérer des données depuis Python.</p>",
+			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était d'exporter l'emploi du temps depuis l'ENT afin d'en extraire certaines données. </p>",
+			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de <b>traiter</b> les <b>informations</b> de l'emploi du temps afin d'aider un enseignant à préparer ses vacances. </p>",
+			"<p class='texte'> J'ai donc utilisé la <b>librairie</b> Python <b>Pandas</b> afin d'extraire depuis l'emploi du temps",
+				"les données qui m'intéressaient, afin de calculer le nombre de jours pendant lesquelles l'enseignant était en vacances. </p>",
+			"<p class='texte'> Ainsi, Il m'a fallu <b>analyser</b> les données de l'emploi du temps afin de trouver les informations correspondantes. </p>",
+			"<p class='texte'> Par la suite, j'ai codé un <b>interface</b> pour faciliter l'utilisation du code. </p> <br />",
+			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact</p>",
+			"<p class='texte'> Pour ce projet, j'ai obtenu la note de 18/20</p> <br>",
+			"<p class='texte italique'>Images du projet: (Le projet, le code, l'interface)</p>",
+			"<div class='aligne'>",
+				"<img src='ScreenProjets/Capture-0-SAE15.PNG' class='screens grand' onclick='window.open(this.src)'' alt=''>",
+				"<img src='ScreenProjets/capture-1-SAE15.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+				"<img src='ScreenProjets/Capture-2-SAE15.PNG' class='screens grand' onclick='window.open(this.src)'' alt=''>",
+			"</div> <br> <br> </div>"
+        ]
+    },
+    "Portfolio": {
+        "description": [
+            "<h3 class='souligne'> Création et maintien du Portfolio (SAE14, SAE25)</h3>",
+			"<div class='descript'>",
+			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet à l'occasion d'une SAE, mais je le fais aussi par passion.</p>",
+			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de nous aider à réaliser tous les éléments essentiels à notre insertion professionnelle. </p>",
+			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était, à terme, de réaliser le portfolio que vous consultez actuellement </p>",
+			"<p class='texte'> Ainsi, nous avons, dans un premier temps, réalisé notre <b>C.V</b>, puis nous avons par la suite créé notre <b>Portfolio</b> </p>",
+			"<p class='texte'> Ainsi, j'ai donc pu fournir ce portfolio <b>complet</b>, avec un <b>design réfléchi</b>, permettant l'utilisation d'une palette de couleurs <b>moins fatigante</b> pour les yeux,",
+				"et <b>régulièrement mis à jour</b>. </p> <br>",
+			"<p class='texte'><b class='souligne'>Résultat:</b> Lors de mon premier semestre, j'ai obtenu la note de 14/20 pour ce projet.</p> <br /> <br /> <br />",
+			"<div class='GButton aligne'>",
+				"<a class='down' href='https://github.com/KelyanDev/KelyanDev.github.io' target='_blank' rel='noopener'>",
+					"<i class='bx bx-folder icon'></i>",
+					"<span class='down'> Répertoire Github</span> </a>",
+			"</div></div>"
+        ]
+    },
+    "SAE11": {
+        "description": [
+            "<h3 class='souligne'>Se sensibiliser à l'hygiène Informatique et à la Cybersécurité (SAE11)</h3>",
+			"<div class='descript'>",
+			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de découvrir certaines notions du monde du numérique.</p>",
+			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de découvrir, par équipe de 3, un <b>sujet</b>, défini par notre enseignant, en lien avec notre formation. </p>",
+			"<p class='texte'> Mes camarades et moi avions décidé de traiter de la <b> Sécurité des mots de passe</b>. Nous devions ensuite <b>présenter</b> ",
+				"notre sujet à notre enseignant ainsi qu'à l'ensemble de nos camarades. </p>",
+			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de découvrir et d'expliquer quel est l' <b>utilité</b> d'un mot de passe, comment est calculée leur <b>robustesse</b>,",
+				"d'expliquer que cette robustesse est exprimée en <b>entropie de shannon</b>, et enfin de montrer l'importance d'un mot de passe <b>robuste</b>. </p> <br />",
+			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est visible via le bouton situé ci-dessous ou via la section contact. </p>",
+			"<p class='texte'>Pour le compte-rendu de ce projet, nous avions obtenu la note de 15,25/20</p> <br />",
+			"<div class='GButton aligne'>",
+				"<a class='down' href='https://docs.google.com/presentation/d/1kUyIZrO5bjbE0_ReKLKvoa2l6XJ5XuS9inuAStk6UMA/edit?usp=sharing' target='_blank' rel='noopener'>",
+					"<i class='bx bx-shield-quarter icon'></i>",
+					"<span class='down'> Présentation Google Slide</span> </a>",
+			"</div> <br><br> </div>"
+        ]
+    },
+    "Hatsu": {
+        "description": [
+            "<h3 class='souligne'>Création d'une console de jeu (Année de Terminale)</h3>",
+			"<div class='descript'>",
+			"<p class='texte'><b class='souligne'>Contexte:</b> Ce projet est mon projet de fin d'année de Terminale, réalisé afin d'utiliser les compétences que nous avions acquises.</p>",
+			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif était de créer une <b>console de jeux</b>, similaire à un Steamdeck ou une Nintendo Switch, avec des jeux dessus. </p>",
+			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de coder l'un de ces jeux, j'ai donc décidé de <b>coder</b> un <b>jeu platformer</b> similaire à un Mario. </p>",
+			"<p class='texte'>Il a fallu coder le jeu de A à Z, que ce soit les mouvements, les collisions ou la génération des niveaux. </p>",
+			"<p class='texte'> J'ai ensuite pu intégrer les designs créés par une camarade, et le jeu était fini dans les temps donnés. </p> <br />",
+			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact. </p>",
+			"<p class='texte'>Pour ce projet, nous avions obtenu la note de 17/20. </p> <br />",
+			"<p class='texte italique'>Images du projet: (La console, le menu du jeu et le jeu)</p>",
+			"<div class='aligne'>",
+				"<img src='ScreenProjets/frontview.jpg' class='screens grand' onclick='window.open(this.src)' alt=''>",
+				"<img src='ScreenProjets/Menu.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+				"<img src='ScreenProjets/Jeu.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+			"</div> <br>",
+			"</div>"
+        ]
+    }
+}
