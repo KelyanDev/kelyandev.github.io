@@ -87,6 +87,12 @@
 			"<p class='compR text resume'> <b>Anglais - B2/C1</b> / <b>Espagnol - B1</b> </p>"
         ]
     },
+    "SAE22": {
+        "description": [
+            "<h3 class='souligne'> Simulation de signaux numériques (SAE22) </h3>",
+            ""
+        ]
+    },
     "RToDo": {
         "description": [
             "<h3 class='souligne'> Application React (Projet personnel)</h3>",

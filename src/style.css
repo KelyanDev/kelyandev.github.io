@@ -787,12 +787,10 @@ body.dark .containerproj input:checked ~ .checkmark{
 
 .cv{
 	width: 414px;
-	border-style: solid;
-	border-width: 5px;
-	border-top-color: var(--back-p-color);
-	border-left-color: var(--back-p-color);
-	border-bottom-color: var(--sub-title-color);
-	border-right-color: var(--sub-title-color);
+	border-top: solid 5px var(--back-p-color);
+	border-left: solid 5px var(--back-p-color);
+	border-bottom: solid 5px var(--sub-title-color);
+	border-right: solid 5px var(--sub-title-color);
 }
 
 .liste .GButton{

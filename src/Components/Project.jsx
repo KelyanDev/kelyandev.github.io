@@ -40,6 +40,11 @@ export default function Projects() {
                         <h4>Liste projets</h4>
                         <hr />
                         <label className="containerproj">
+                            <input type="radio" id="SAE22" name="Projets" className="RadProj" onChange={handleRadioChange}/>
+                            <span className="checkmark"> Simulation de signaux numériques (SAE22)</span>
+                            Simulation de signaux numériques (SAE22)
+                        </label>
+                        <label className="containerproj">
                             <input type="radio" id="RToDo" name="Projets" className="RadProj" onChange={handleRadioChange}/>
                             <span className="checkmark"> Application React</span>
                             Application React

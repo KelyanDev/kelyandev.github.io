@@ -4,7 +4,7 @@ export default function CV() {
             <h2 className="titre">CV</h2>
             <br />
             <div className="aligne">
-                <img className="cv" src="Divers/CV_Tournebize-Kélyan-1.png" alt="" />
+                <img className="cv" src={`${process.env.PUBLIC_URL}/Divers/CV_Tournebize-Kélyan-1.png`} alt="" />
             </div>
             <div className="aligne">
                 <div className="GButton">
