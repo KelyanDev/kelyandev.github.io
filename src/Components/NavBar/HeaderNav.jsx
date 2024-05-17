@@ -3,7 +3,7 @@ export default function HeaderNav({ toggleSidebar }) {
         <div className="headerNav">
             <div className="image-text">
                 <span className="image">
-                <img src="logo.png" alt="logo" />
+                <img src="./logo.png" alt="logo" />
                 </span>
                 <div>
                     <h3 className="menu"> Onglets </h3>

@@ -40,22 +40,22 @@ function HardSkills() {
 
         if (!sectionData) {
             return (
-                <div class="comp">
-						<div class="cercle">
+                <div className="comp">
+						<div className="cercle">
 							<svg>
-								<circle class="Scercle" r="80" cx="100" cy="100" fill="transparent" stroke-width="15px"></circle>
-								<circle class="Pcercle" r="80" cx="100" cy="100" fill="transparent" stroke-width="15px" stroke-linecap="round" style={{'stroke-dashoffset':'calc((502 * (100 - 0)) / 100)'}} ></circle>
+								<circle className="Scercle" r="80" cx="100" cy="100" fill="transparent" strokeWidth="15px"></circle>
+								<circle className="Pcercle" r="80" cx="100" cy="100" fill="transparent" strokeWidth="15px" strokeLinecap="round" style={{'strokeDashoffset':'calc((502 * (100 - 0)) / 100)'}} ></circle>
 							</svg>
-							<span class="pourcent"> -- </span>
+							<span className="pourcent"> -- </span>
 						</div>
 						<div id="compDesc">
 							<h4>Sélectionner une compétence</h4>
 							<hr />
-							<p class="text"> -- Les jauges dépendent des résultats attendus par nos professeurs. </p>
-							<p class="text">.</p>
-							<p class="text">.</p>
+							<p className="text"> -- Les jauges dépendent des résultats attendus par nos professeurs. </p>
+							<p className="text">.</p>
+							<p className="text">.</p>
 							<hr />
-							<p class="text resume"><b>Compétences 1</b> / <b>Compétence 2</b></p>
+							<p className="text resume"><b>Compétences 1</b> / <b>Compétence 2</b></p>
 						</div>
 					</div>
             );
@@ -67,13 +67,13 @@ function HardSkills() {
 
         return (
             <>
-				<div class="comp">
-					<div class="cercle">
+				<div className="comp">
+					<div className="cercle">
 						<svg>
-							<circle class="Scercle" r="80" cx="100" cy="100" fill="transparent" stroke-width="15px"></circle>
-							<circle class="Pcercle" r="80" cx="100" cy="100" fill="transparent" stroke-width="15px" stroke-linecap="round" style={{'stroke-dashoffset': sectionData.circleStyle}} ></circle>
+							<circle className="Scercle" r="80" cx="100" cy="100" fill="transparent" strokeWidth="15px"></circle>
+							<circle className="Pcercle" r="80" cx="100" cy="100" fill="transparent" strokeWidth="15px" strokeLinecap="round" style={{'strokeDashoffset': sectionData.circleStyle}} ></circle>
 						</svg>
-						<span class="pourcent"> {sectionData.circleText} </span>
+						<span className="pourcent"> {sectionData.circleText} </span>
 					</div>
 					<div id="compDesc">
 						{description}

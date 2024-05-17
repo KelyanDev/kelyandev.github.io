@@ -13,7 +13,7 @@ export default function Projects() {
 
         if (!sectionData) {
             return (
-                <h3 class="souligne"> Merci de sélectionner un projet parmis la liste </h3>
+                <h3 className="souligne"> Merci de sélectionner un projet parmis la liste </h3>
             );
         };
 
