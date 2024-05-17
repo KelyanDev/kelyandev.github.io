@@ -5,7 +5,7 @@ export default function Exp() {
             <br />
             <div className="section exp">
                 <div className="exp-im">
-                    <img src="Divers/13158614.jpg" className="screens" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/Divers/13158614.jpg`} className="screens" alt="" />
                 </div>
                 <div>
                     <h4>Janvier 2020</h4>

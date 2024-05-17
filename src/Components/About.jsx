@@ -4,7 +4,7 @@ export default function About() {
             <h2 className="titre">A propos de moi</h2>
             <br />
             <div className="photo">
-                <img src="photo.jpg" alt="Photo" id="pdp" />
+                <img src={`${process.env.PUBLIC_URL}/photo.jpg`} alt="" id="pdp" />
             </div>
             <h3 className="souligne"> Etudiant en première année de BUT Réseaux et Télécommunications </h3>
         <p className="texte"> Je m'appelle Tournebize Kélyan, j'ai 18 ans, et je suis actuellement étudiant en première année de BUT en <b>Réseaux et Télécommunications</b>. </p>

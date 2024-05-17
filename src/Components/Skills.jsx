@@ -9,20 +9,7 @@ export default function Skills() {
             <h3 className="souligne">Compétences techniques</h3>
             <HardSkills />
             <h3 className="souligne">Qualités</h3>
-            <SoftSkills /> <br /> <br />
-            <h3 className="souligne">Langues</h3>
-            <div className="Qligne">
-                <div className="Lligne">
-                    <div className="lang section">
-                        <h2>B2</h2>
-                        <p> Anglais</p>
-                    </div>
-                    <div className="lang section">
-                        <h2>A2</h2>
-                        <p> Espagnol</p>
-                    </div>
-                </div>
-            </div>
+            <SoftSkills />
             <br /> <br /> <hr />
         </div>
     );

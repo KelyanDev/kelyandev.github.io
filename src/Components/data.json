@@ -14,7 +14,7 @@
             "<h4>Virtualisation et conteneurisation de serveur</h4> <hr />",
             "<p class='text'> Lors de nombreux TD et TP, j'ai eu l'occasion d'apprendre la virtualisation et la conteneurisation de serveurs. </p>",
             "<p class='text'> En effet, j'ai appris lors de certains TP à virtualiser des serveurs à l'aide de différents outils comme Virtualbox et VMWare ESXi, à configurer un réseau NAT virtuel pour ces machines, avec un service DHCP. J'ai par la suite appris à configurer ces serveurs afin de réserver une partie des ressources",
-            "physiques de ces serveurs pour des VMs. Enfin, j'ai appris à utiliser le Datastore afin de trouver des VM, mais aussi à utiliser des outils de supervision et de sauvegarde à distance grâce à l'outil Veeam. </p>",
+                " physiques de ces serveurs pour des VMs. Enfin, j'ai appris à utiliser le Datastore afin de trouver des VM, mais aussi à utiliser des outils de supervision et de sauvegarde à distance grâce à l'outil Veeam. </p>",
             "<p class='text'> J'ai également appris à conteneuriser des serveurs grâce à l'outil Docker sous Linux </p> <hr />",
 			"<p class='text resume'><b>Virtualisation</b> / <b>Conteneurisation</b> / <b>VirtualBox</b> / <b>VMWare</b> / <b>Docker</b></p>"
         ]
@@ -33,7 +33,7 @@
 			"<h4>Programmation Web</h4> <hr />",
 			"<p class='text'> Lors de Projets et dans le cadre de ma Terminale spécialité NSI, j'ai appris la programmation web</p>",
 			"<p class='text'> J'ai découvert la programmation web lors de mon année de Terminale, puis j'ai grandement renforcé mes compétences lors de mon BUT lors de la réalisation",
-				"de projets, avec pour exemple ce portfolio. J'ai également appris à créer et gérer une base de données MySQL depuis une page PHP, mais aussi en utilisant NodeJS ainsi que MongoDB.</p>",
+				" de projets, avec pour exemple ce portfolio. J'ai également appris à créer et gérer une base de données MySQL depuis une page PHP, mais aussi en utilisant NodeJS ainsi que MongoDB.</p>",
 			"<p class='text'> J'ai également appris de nouveaux frameworks web, avec par exemple le React, mais aussi des extensions CSS comme le Sass.</p> <hr />",
 			"<p class='text resume'><b>Web</b> / <b>HTML</b> / <b>CSS</b> / <b>JavaScript</b> / <b>React</b> / <b>PHP</b> / <b>MySQL</b> / <b>NodeJS</b> / <b>MongoDB</b></p>"
         ]
@@ -45,7 +45,7 @@
             "<h4>Configurer un réseau et ses équipements</h4> <hr />",
             "<p class='text'> Lors de nombreux TP, j'ai appris à mettre en place et configurer différents équipements réseaux.</p>",
             "<p class='text'> En effet, j'ai eu l'occasion de configurer certains équipements réseaux tels que des routeurs, des commutateurs, des bornes wifi ou de simples ordinateurs,",
-                "mais aussi différents serveurs de service comme DHCP, FTP, Web ou autres, dans un premier temps sur Cisco PacketTracer, puis ensuite sur de vrais équipements.</p>",
+                " mais aussi différents serveurs de service comme DHCP, FTP, Web ou autres, dans un premier temps sur Cisco PacketTracer, puis ensuite sur de vrais équipements.</p>",
             "<p class='text'> J'ai également appris le fonctionnement de différentes méthodes de routage, comme le RIP ou encore l'EIGRP.</p> <hr />",
             "<p class='text resume'><b>Réseaux</b> / <b>Cisco</b> / <b>Borne Wifi</b> / <b>Routeurs & Commutateurs</b></p>"
         ]
@@ -57,8 +57,8 @@
             "<h4>Analyse de signaux</h4> <hr />",
             "<p class='text'> Lors de nombreux TD et TP, j'ai eu l'occasion d'apprendre à observer des signaux électriques</p>",
             "<p class='text'> En effet, j'ai eu l'occasion d'utiliser des oscilloscopes et des générateurs de fonction afin d'observer des signaux électriques,",
-                "dans différentes situations, avec l'exemple des signaux des canaux TnT, ou encore d'un signal à l'intérieur d'une paire torsadée d'un câble Ethernet.",
-                "J'ai par la suite appris à observer le spectre d'un signal, comme des signaux sinuisoïdaux ou encore des signaux carrés.</p>",
+                " dans différentes situations, avec l'exemple des signaux des canaux TnT, ou encore d'un signal à l'intérieur d'une paire torsadée d'un câble Ethernet.",
+                " J'ai par la suite appris à observer le spectre d'un signal, comme des signaux sinuisoïdaux ou encore des signaux carrés.</p>",
             "<p class='text'> J'ai également étudié les notions liées aux câbles de fibre optique.</p> <hr />",
             "<p class='text resume'><b>Signaux</b> / <b>Fibre</b> / <b>Câbles à paire torsadées</b></p>"
         ]
@@ -70,7 +70,7 @@
             "<h4>Téléphonie</h4> <hr />",
 			"<p class='text'> Lors de nombreux TD et TP, j'ai eu l'occasion d'apprendre le fonctionnement ainsi que la mise en place d'un service téléphonique.</p>",
 			"<p class='text'> En effet, j'ai découvert les bases de la Téléphonie IP, et j'ai également eu l'occasion de configurer des téléphones numériques ainsi que ",
-				"des téléphones analogiques, mais aussi des calls serveurs, afin de permettre la communication entre deux postes téléphoniques.</p>",
+				" des téléphones analogiques, mais aussi des calls serveurs, afin de permettre la communication entre deux postes téléphoniques.</p>",
 			"<p class='text'>J'ai également appris à configurer un trunk SIP afin de permettre l'accès au réseau public</p> <hr /> ",
 			"<p class='text resume'><b>Téléphonie</b> / <b>Call servers</b> / <b>Téléphones numériques, analogiques</b> / <b>Intégration téléphonie mobile</b> / <b>Trunk SIP</b> </p>"
         ]
@@ -81,7 +81,7 @@
         "description": [
             "<h4> Langues </h4> <hr />",
 			"<p class='text'> Lors de mes différentes années d'études, j'ai eu l'occasion d'apprendre certaines langues</p>",
-			"<p class='text'> En effet, j'ai appris l'anglais en regardant des vidéos ou en jouant à des jeux, et j'ai appris l'espagnol lors de mes années de",
+			"<p class='text'> En effet, j'ai appris l'anglais en regardant des vidéos ou en jouant à des jeux, et j'ai appris l'espagnol lors de mes années de ",
 			    "collège et de lycée.</p>",
 			"<p class='text'> Ainsi, au fil des années, j'ai acquis un niveau B2/C1 en anglais ainsi qu'un niveau B1 en espagnol</p> <hr />",
 			"<p class='compR text resume'> <b>Anglais - B2/C1</b> / <b>Espagnol - B1</b> </p>"
@@ -90,7 +90,17 @@
     "SAE22": {
         "description": [
             "<h3 class='souligne'> Simulation de signaux numériques (SAE22) </h3>",
-            ""
+            "<div class='descript'>",
+            "<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de simuler des signaux numériques sous MATLAB</p>",
+            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de simuler et d'étudier des signaux de différents types. </p>",
+            "<p class='texte'><b class='souligne'>Mission:</b> Ma mission était donc de découvrir le fonctionnement de l'environnement MATLAB afin de réaliser l'étude d'un signal temporel et d'un canal Radio.</p>",
+            "<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet le fonctionnement de MATLAB, afin de générer, d'échantillonner et d'afficher ces signaux ainsi que leurs spectres</p> <br />",
+            "<p class='texte italique'>Images du projet: ()</p>",
+            "<div class='aligne'>",
+                "<img src='' class='screens grand' onclick='window.open(this.src)' alt=''>",
+                "<img src='' class='screens grand' onclick='window.open(this.src)' alt=''>",
+                "<img src='' class='screens grand' onclick='window.open(this.src)' alt=''>",
+            "</div> <br> <br> </div>"
         ]
     },
     "RToDo": {
@@ -116,14 +126,17 @@
 			"<div class='descript'>",
 			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet au cours d'une SAE, afin de découvrir l'environnement NodeJS.</p>",
 			"<p class='texte'> <b class='souligne'>Objectif:</b> L'objectif de ce projet était de mettre en place un outil de support pour le service informatique de l'université, en créant un site web de gestion",
-				"de tickets de support. </p>",
+				" de tickets de support. </p>",
 			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de coder la partie <b>backend</b> du site, afin qu'un utilisateur puisse créer un ticket,",
-				"suivre son avancement, ou encore le supprimer, mais aussi afin qu'un administrateur puisse les gérer, contacter l'utilisateur et les affecter à un technicien support. </p>",
+				" suivre son avancement, ou encore le supprimer, mais aussi afin qu'un administrateur puisse les gérer, contacter l'utilisateur et les affecter à un technicien support. </p>",
 			"<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet comment gérer et interroger une base de données MongoDB en utilisant NodeJS ainsi que le framework Express</p> <br />",
 			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet sera téléchargeable via mon GitHub, depuis la section contact</p>",
 			"<p class='texte'>Pour ce projet, je n'ai pas encore été noté</p> <br />",
-			"<p class='texte italique'>Images du projet: ()</p>",
+			"<p class='texte italique'>Images du projet: (L'interface, le projet, la base de donnée)</p>",
 			"<div class='aligne'>",
+                "<img src='ScreenProjets/SAE23-1.PNG' class='screens grand' onclick='window.open(this.src)'' alt=''>",
+				"<img src='ScreenProjets/SAE23-2.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+				"<img src='ScreenProjets/SAE23-3.PNG' class='screens grand' onclick='window.open(this.src)'' alt=''>",
 			"</div> <br> <br> </div>"
         ]
     },
@@ -135,7 +148,7 @@
 			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était d'exporter l'emploi du temps depuis l'ENT afin d'en extraire certaines données. </p>",
 			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de <b>traiter</b> les <b>informations</b> de l'emploi du temps afin d'aider un enseignant à préparer ses vacances. </p>",
 			"<p class='texte'> J'ai donc utilisé la <b>librairie</b> Python <b>Pandas</b> afin d'extraire depuis l'emploi du temps",
-				"les données qui m'intéressaient, afin de calculer le nombre de jours pendant lesquelles l'enseignant était en vacances. </p>",
+				" les données qui m'intéressaient, afin de calculer le nombre de jours pendant lesquelles l'enseignant était en vacances. </p>",
 			"<p class='texte'> Ainsi, Il m'a fallu <b>analyser</b> les données de l'emploi du temps afin de trouver les informations correspondantes. </p>",
 			"<p class='texte'> Par la suite, j'ai codé un <b>interface</b> pour faciliter l'utilisation du code. </p> <br />",
 			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact</p>",
@@ -157,7 +170,7 @@
 			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était, à terme, de réaliser le portfolio que vous consultez actuellement </p>",
 			"<p class='texte'> Ainsi, nous avons, dans un premier temps, réalisé notre <b>C.V</b>, puis nous avons par la suite créé notre <b>Portfolio</b> </p>",
 			"<p class='texte'> Ainsi, j'ai donc pu fournir ce portfolio <b>complet</b>, avec un <b>design réfléchi</b>, permettant l'utilisation d'une palette de couleurs <b>moins fatigante</b> pour les yeux,",
-				"et <b>régulièrement mis à jour</b>. </p> <br>",
+				" et <b>régulièrement mis à jour</b>. </p> <br>",
 			"<p class='texte'><b class='souligne'>Résultat:</b> Lors de mon premier semestre, j'ai obtenu la note de 14/20 pour ce projet.</p> <br /> <br /> <br />",
 			"<div class='GButton aligne'>",
 				"<a class='down' href='https://github.com/KelyanDev/KelyanDev.github.io' target='_blank' rel='noopener'>",
@@ -173,9 +186,9 @@
 			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de découvrir certaines notions du monde du numérique.</p>",
 			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de découvrir, par équipe de 3, un <b>sujet</b>, défini par notre enseignant, en lien avec notre formation. </p>",
 			"<p class='texte'> Mes camarades et moi avions décidé de traiter de la <b> Sécurité des mots de passe</b>. Nous devions ensuite <b>présenter</b> ",
-				"notre sujet à notre enseignant ainsi qu'à l'ensemble de nos camarades. </p>",
+				" notre sujet à notre enseignant ainsi qu'à l'ensemble de nos camarades. </p>",
 			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de découvrir et d'expliquer quel est l' <b>utilité</b> d'un mot de passe, comment est calculée leur <b>robustesse</b>,",
-				"d'expliquer que cette robustesse est exprimée en <b>entropie de shannon</b>, et enfin de montrer l'importance d'un mot de passe <b>robuste</b>. </p> <br />",
+				" d'expliquer que cette robustesse est exprimée en <b>entropie de shannon</b>, et enfin de montrer l'importance d'un mot de passe <b>robuste</b>. </p> <br />",
 			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est visible via le bouton situé ci-dessous ou via la section contact. </p>",
 			"<p class='texte'>Pour le compte-rendu de ce projet, nous avions obtenu la note de 15,25/20</p> <br />",
 			"<div class='GButton aligne'>",
