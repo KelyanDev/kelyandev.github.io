@@ -24,7 +24,7 @@ export default function App() {
   return (
     <>
     <div className='App'>
-      <Sidebar DarkToggle={toggleDarkMode}/>
+      <Sidebar isDarkMode={isBodyDark} DarkToggle={toggleDarkMode}/>
       <div className="liste">
         <About />
         <Formation />

@@ -12,7 +12,7 @@ import CV from "./NavBar/NavLink/Cv";
 import Contact from "./NavBar/NavLink/Contact";
 
 
-export default function Sidebar({ DarkToggle }) {
+export default function Sidebar({ isDarkMode, DarkToggle }) {
     const [isSidebarClosed, setIsSidebarClosed] = useState(false);
 
     function toggleSidebar() {
@@ -34,7 +34,7 @@ export default function Sidebar({ DarkToggle }) {
                     <Contact />
                 </ul>
                 <ul className="contenu-bas">
-                    <Switch DarkToggle={DarkToggle}/>
+                    <Switch isDarkMode={isDarkMode} DarkToggle={DarkToggle}/>
                 </ul>
             </div>
         </nav>
