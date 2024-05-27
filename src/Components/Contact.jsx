@@ -45,7 +45,7 @@ export default function Contact() {
 function Footer() {
     return (
         <footer className="copyrights">
-            <p> © 2024 TOURNEBIZE Kélyan</p>
+            <p> © 2024 TOURNEBIZE Kélyan, All rights reserved</p>
         </footer>
     );
 }

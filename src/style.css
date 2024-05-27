@@ -131,7 +131,7 @@ body.dark{
 	top: 0;
 	left: 0;
 	width: 250px;
-	height: 100%;
+	height: 100vh;
 	background: var(--sidebar-color);
 	padding: 10px 14px;
 	border-width: 0px;
@@ -152,6 +152,10 @@ body.dark{
  .headerNav .menu{
 	color: var(--text-color);
 	transition: var(--tran-05);
+}
+
+.sidebar .menu-bar li {
+	cursor: pointer;
 }
 
 .sidebar .text{
@@ -927,9 +931,10 @@ body.dark .liste .TButton a:hover .linke{
 
 /* ==== Adaptivity ==== */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
 	.sidebar {
-		max-height: 100vh;
+		position: fixed;
+		height: 100vh;
 	}
 	.sidebar .menu-bar {
 		margin: 0;
