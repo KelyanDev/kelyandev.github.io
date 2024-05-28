@@ -368,6 +368,35 @@ body.dark .switch::before{
  
 }
 
+.sidebar hr {
+	margin-top: 10px;
+}
+
+.sidebar.close select {
+	visibility: hidden;
+	transition: var(--tran-02);
+}
+
+.sidebar select {
+	appearance: none;
+	background-color: var(--primary-color-light);
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	border-style: hidden;
+	border-color: var(--back-p-color);
+	outline: 0;
+	font: inherit;
+	font-size: 16px;
+	color: var(--text-color);
+	transition: var(--tran-02);
+	cursor: pointer;
+}
+
+.sidebar .menu-bar li:has(select) {
+	cursor: default;
+}
+
 /* ===== Contenu  ===== */
 
 .liste{
