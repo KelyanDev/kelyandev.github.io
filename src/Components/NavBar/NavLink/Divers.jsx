@@ -8,7 +8,7 @@ export default function Divers() {
         <li className="nav-lien">
           <Link to="Divers" smooth={true} duration={800}>
             <i className="bx bx-book-bookmark icons" />
-            <span className="text nav-text"> {t('SidMisc')} </span>
+            <span className="text nav-text"> {t('sidebar.SidMisc')} </span>
           </Link>
         </li>
     );

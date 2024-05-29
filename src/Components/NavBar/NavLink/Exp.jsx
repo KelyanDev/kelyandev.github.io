@@ -8,7 +8,7 @@ export default function Experience() {
         <li className="nav-lien">
           <Link to="Experience" smooth={true} duration={800}>
             <i className="bx bx-briefcase-alt icons" />
-            <span className="text nav-text"> {t('SidExp')} </span>
+            <span className="text nav-text"> {t('sidebar.SidExp')} </span>
           </Link>
         </li>
     );

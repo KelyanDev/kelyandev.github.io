@@ -1,14 +1,17 @@
 import { useState } from "react";
 import data from "./data.json";
+import { useTranslation } from "react-i18next";
 
 export default function Skills() {
+    const { t } = useTranslation();
+
     return (
         <div id="Competence" className="part">
-            <h2 className="titre">Compétences</h2>
+            <h2 className="titre">{t('skills.Title')}</h2>
             <br />
-            <h3 className="souligne">Compétences techniques</h3>
+            <h3 className="souligne">{t('skills.Hard-Title')}</h3>
             <HardSkills />
-            <h3 className="souligne">Qualités</h3>
+            <h3 className="souligne">{t('skills.Soft-Title')}</h3>
             <SoftSkills />
             <br /> <br /> <hr />
         </div>
@@ -117,43 +120,46 @@ function HardSkills() {
 }
 
 function SoftSkills() {
-    return (<>  
+    const { t } = useTranslation();
+
+    return (
+        <>  
         <div className="Qligne">
             <div className="qualit section">
                 <i className="bx bx-user-circle" />
-                <h4> Maturité</h4>
+                <h4> {t('skills.First-title')}</h4>
                 <div>
-                    <p className="text"> Je sais recevoir des remarques et des commentaires dans le but de m'améliorer sans adopter une attitude trop défensive </p>
+                    <p className="text"> {t('skills.First-dsc')} </p>
                 </div>
             </div>
             <div className="qualit section">
                 <i className="bx bx-hourglass" />
-                <h4> Patience</h4>
+                <h4> {t('skills.Second-title')}</h4>
                 <div>
-                    <p className="text"> Lorsque je rencontre un problème en projet, je sais me montrer patient afin de trouver la solution à ce problème </p>
+                    <p className="text"> {t('skills.Second-dsc')} </p>
                 </div>
             </div>
         </div>
         <div className="Qligne">
             <div className="qualit section">
                 <i className="bx bx-code-curly" />
-                <h4> Passion</h4>
+                <h4> {t('skills.Third-title')}</h4>
                 <div>
-                    <p className="text"> Lorsque je suis intéressé par un sujet, je sais me donner à fond pour atteindre mes objectifs </p>
+                    <p className="text"> {t('skills.Third-dsc')} </p>
                 </div>
             </div>
             <div className="qualit section">
                 <i className="bx bx-calendar-check" />
-                <h4> Efficacité</h4>
+                <h4> {t('skills.Fourth-title')}</h4>
                 <div>
-                    <p className="text"> Je sais me montrer efficace afin de réaliser mes projets dans les temps données</p>
+                    <p className="text"> {t('skills.Fourth-dsc')}</p>
                 </div>
             </div>
             <div className="qualit section">
                 <i className="bx bx-group" />
-                <h4> Esprit D'équipe</h4>
+                <h4> {t('skills.Fifth-title')}</h4>
                 <div>
-                    <p className="text"> Je sais oeuvrer avec les autres et être solidaire afin d'aider mes collègues à la réalisation de nos objectifs.</p>
+                    <p className="text"> {t('skills.Fifth-dsc')}</p>
                 </div>
             </div>
         </div>

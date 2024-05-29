@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 export default function Contact() {
     return (
         <div id="Contact">
@@ -43,9 +45,11 @@ export default function Contact() {
 }
 
 function Footer() {
+    const { t } = useTranslation();
+
     return (
         <footer className="copyrights">
-            <p> © 2024 TOURNEBIZE Kélyan, All rights reserved</p>
+            <p> © 2024 TOURNEBIZE Kélyan, {t('copyright')}</p>
         </footer>
     );
 }

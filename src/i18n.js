@@ -4,58 +4,165 @@ import { initReactI18next } from "react-i18next";
 const resources = {
     en: {
         translation: {
-            'SidHead': 'Tabs',
-            'SidAbout': 'About me',
-            'SidSkills': 'Skills',
-            'SidMisc': 'Miscellaneous',
-            'SidExp': 'Experience',
-            'SidTrai': 'Training',
-            'SidProj': 'Projects',
-            'SidWhite': 'White Mode',
-            'SidDark': 'Dark Mode',
-
-            'AboutTit': 'First year student in Network and Telecommunications',
-            'About-1': "My name is Tournebize Kélyan, I'm 18 years old and I'm currenctly a first year student in <b>Networks and Telecommunications</b>.",
-            'About-2': `After graduating from a General Baccalaureate with Mathematics and Numerical & Computer Sciences specialties (NSI in France),
-                I decided to join a BUT training in Networks and Telecommunications in order to be able to follow the <b>Cybersecurity</b> course offered upon the second year,
-                but also for the possibility of following an <b>apprenticeship</b>, during the second and third years of study.`,
-            'About-3': `Currently, I am <b>looking for</b> a <b>work-study contract</b> starting in September 2024,
-                on a <b>pace</b> of <b>1 month / 1 month</b>, in order to work with a company for one or two years and strengthen my skills
-                while understanding the challenges of the professional environment.`,
-            
-            'Train-3-Tit': "January 2024",
-            'Train-3-Desc': "First semester in Networks and Telecommunications validated",
-            'Train-2-Desc': "First year in Networks and Telecommunications",
-            'Train-1-Tit': "June 2023",
-            'Train-1-Desc': "General Baccalaureate graduation, with Mathematics and Numeric and Computer Science specialties, with good honors",
+            sidebar: {
+                /* === Sidebar === */
+                SidHead: 'Tabs',
+                SidAbout: 'About me',
+                SidSkills: 'Skills',
+                SidMisc: 'Miscellaneous',
+                SidExp: 'Experience',
+                SidTrai: 'Training course',
+                SidProj: 'Projects',
+                SidWhite: 'White Mode',
+                SidDark: 'Dark Mode',
+            },
+            about: {
+                /* === About me === */
+                'Title': 'First year student in Network and Telecommunications',
+                'Part1': "My name is Tournebize Kélyan, I'm 18 years old and I'm currenctly a first year student in <b>Networks and Telecommunications</b>.",
+                'Part2': `After graduating from a General Baccalaureate with Mathematics and Numerical & Computer Sciences specialties (NSI in France),
+                    I decided to join a training course in Networks and Telecommunications in order to be able to follow the <b>Cybersecurity</b> course offered upon the second year,
+                    but also for the possibility of following an <b>apprenticeship</b>, during the second and third years of study.`,
+                'Part3': `Currently, I am <b>looking for</b> a <b>work-study contract</b> starting in September 2024,
+                    on a <b>pace</b> of <b>1 month / 1 month</b>, in order to work with a company for one or two years and strengthen my skills
+                    while understanding the challenges of the professional environment.`,
+            },
+            training: {
+                /* === Training course === */
+                'Title': "Training course",
+                'Train-3-Tit': "January 2024",
+                'Train-3-Desc': "First semester in Networks and Telecommunications validation",
+                'Train-2-Desc': "First year in Networks et Telecommunications",
+                'Train-1-Tit': "June 2023",
+                'Train-1-Desc': "Graduating from a General Baccalaureate with Mathematics and Numeric & Computer Science (NSI) specialties, with good honors",
+            },
+            experience: {
+                /* === Professional Experience === */
+                'Title': 'Professional Experience',
+                'Exp-1-Tit': 'January 2020',
+                'Exp-1-P1': "During my ninth (9th) grade, I had the opportunity to do a one-week internship at the Vichy Thermal Baths.",
+                'Exp-1-P2': "During this internship, I helped the establishment's bacteriologist to carry out analyzes on various thermal source waters.",
+                'Exp-1-P3': "After recovering the spring waters, it was necessary to go through an evaporation process before placing the filters in petrie dishes.",
+                'Exp-1-P4': "Finally, I had to analyze the petrie dishes to identify if it contained any dangerous bacteria.",
+            },
+            skills: {
+                /* === Soft skills === */
+                'Title': "Skills",
+                'Hard-Title': "Hard skills",
+                'Soft-Title': "Soft skills",
+                "First-title": "Maturity",
+                "First-dsc": "I can accept feedback and comments with the aim of improving myself without adopting a defensive attitude.",
+                "Second-title": "Patience",
+                "Second-dsc": "When I encounter a problem in a project, I know how to be patient to find a solution to the problem.",
+                "Third-title": "Passion",
+                "Third-dsc": "When I am interested in a topic, I can fully commit to achieving my goals.",
+                "Fourth-title": "Efficiency",
+                "Fourth-dsc": "I can be efficient in order to complete my projects within the given time frames.",
+                "Fifth-title": "Team Spirit",
+                "Fifth-dsc": "I can work with others and be supportive to help my colleagues achieve our goals."
+            },
+            projects: {
+                'Title': 'Projects'
+            },
+            miscellaneous: {
+                /* === Miscellaneous === */
+                "Title": "Miscellaneous",
+                "First-title": "Surfing",
+                "First-dsc": "I enjoy surfing, mostly in surf clubs, during my summer holidays on the Atlantic Ocean.",
+                "Second-title": "Climbing",
+                "Second-dsc": "I practice bouldering on indoor courses, with the example of the B'up climbing gym.",
+                "Third-title": "Stones and Minerals",
+                "Third-dsc": "I have shown an interest in stones and minerals since I was very young.",
+                "Fourth-title": "Gym",
+                "Fourth-dsc": "I like working out in the gym to exercise physically.",
+                "Fifth-title": "Computing",
+                "Fifth-dsc": "I like discovering different programming languages and developing computer tools.",
+                "Sixth-title": "Manga/Anime",
+                "Sixth-dsc": `I enjoy reading manga and watching anime, with the example of the manga and scans of "Jujutsu Kaisen".`
+            },
+            copyright: 'all rights reserved'
         }
     },
     fr: {
         translation: {
-            'SidHead': 'Onglets',
-            'SidAbout': 'A propos de moi',
-            'SidSkills': 'Compétences',
-            'SidMisc': 'Divers',
-            'SidExp': 'Expérience',
-            'SidTrai': 'Formation',
-            'SidProj': 'Projets',
-            'SidWhite': 'Mode Clair',
-            'SidDark': 'Mode Sombre',
-
-            'AboutTit': 'Etudiant en première année de BUT Réseaux et Télécommunications',
-            'About-1': "Je m'appelle Tournebize Kélyan, j'ai 18 ans, et je suis actuellement étudiant en première année de BUT en <b>Réseaux et Télécommunications</b>.",
-            'About-2': `Après avoir passé un baccalauréat Général avec pour spécialités Mathématiques et Numérique et Sciences Informatiques (NSI),
-                j'ai décidé d'intégrer une formation de BUT en Réseaux et Télécommunications afin de pouvoir suivre le parcours <b>Cybersécurité</b> proposé dès la deuxième année,
-                mais aussi pour la possibilité de faire de l'<b>alternance</b>, en deuxième et en troisième année.`,
-            'About-3': `Actuellement, je suis à la <b>recherche</b> d'un <b>contrat d'alternance</b> à compter de Septembre 2024,
-                sur un <b>rythme</b> de <b>1 mois / 1 mois</b>, afin de travailler avec une entreprise pendant une ou deux années et renforcer mes compétences
-                tout en comprenant les enjeux du milieu professionnel.`,
-            
-            'Train-3-Tit': "Janvier 2024",
-            'Train-3-Desc': "Validation premier semestre de BUT en Réseaux et Télécommunications",
-            'Train-2-Desc': "Première année de BUT en Réseaux et Télécommunications",
-            'Train-1-Tit': "Juin 2023",
-            'Train-1-Desc': "Obtention d'un Baccalauréat Général spécialités Maths et NSI, mention assez bien",
+            sidebar: {
+                /* === Sidebar === */
+                SidHead: 'Onglets',
+                SidAbout: 'A propos de moi',
+                SidSkills: 'Compétences',
+                SidMisc: 'Divers',
+                SidExp: 'Expérience',
+                SidTrai: 'Formation',
+                SidProj: 'Projets',
+                SidWhite: 'Mode Clair',
+                SidDark: 'Mode Sombre'
+                },
+            about: {
+                /* === About me === */
+                Title: 'Etudiant en première année de BUT Réseaux et Télécommunications',
+                Part1: "Je m'appelle Tournebize Kélyan, j'ai 18 ans, et je suis actuellement étudiant en première année de BUT en <b>Réseaux et Télécommunications</b>.",
+                Part2: `Après avoir passé un baccalauréat Général avec pour spécialités Mathématiques et Numérique et Sciences Informatiques (NSI),
+                    j'ai décidé d'intégrer une formation de BUT en Réseaux et Télécommunications afin de pouvoir suivre le parcours <b>Cybersécurité</b> proposé dès la deuxième année,
+                    mais aussi pour la possibilité de faire de l'<b>alternance</b>, en deuxième et en troisième année.`,
+                Part3: `Actuellement, je suis à la <b>recherche</b> d'un <b>contrat d'alternance</b> à compter de Septembre 2024,
+                    sur un <b>rythme</b> de <b>1 mois / 1 mois</b>, afin de travailler avec une entreprise pendant une ou deux années et renforcer mes compétences
+                    tout en comprenant les enjeux du milieu professionnel.`
+            },
+            training: {
+                /* === Training course === */
+                'Title': "Formation",
+                'Train-3-Tit': "Janvier 2024",
+                'Train-3-Desc': "Validation premier semestre de BUT en Réseaux et Télécommunications",
+                'Train-2-Desc': "Première année de BUT en Réseaux et Télécommunications",
+                'Train-1-Tit': "Juin 2023",
+                'Train-1-Desc': "Obtention d'un Baccalauréat Général spécialités Maths et NSI, mention assez bien"
+            },
+            experience: {
+                /* === Professional Experience === */
+                'Title': 'Experience professionnelle',
+                'Exp-1-Tit': 'Janvier 2020',
+                'Exp-1-P1': "Lors de mon année de 3ème, j'ai eu l'occasion de réaliser un stage d'une semaine aux Thermes de Vichy.",
+                'Exp-1-P2': "Lors de ce stage, j'ai accompagné le bactériologiste de l'établissement afin de faire des analyses sur les différentes eaux de source thermale",
+                'Exp-1-P3': "Une fois les eaux de sources récupérées, il fallait passer par un processus d'évaporation avant de déposer les filtres dans des boîtes de pétries.",
+                'Exp-1-P4': "Enfin, j'ai dû analyser les boîtes de pétries afin de repérer si des bactéries dangereuses étaient présentes."
+            },
+            skills: {
+                /* === Soft skills === */
+                'Title': "Compétences",
+                'Hard-Title': "Compétences techniques",
+                'Soft-Title': "Qualités",
+                'First-title': "Maturité",
+                'First-dsc': "Je sais recevoir des remarques et des commentaires dans le but de m'améliorer sans adopter une attitude trop défensive",
+                'Second-title': "Patience",
+                'Second-dsc': "Lorsque je rencontre un problème en projet, je sais me montrer patient afin de trouver la solution à ce problème",
+                'Third-title': "Passion",
+                'Third-dsc': "Lorsque je suis intéressé par un sujet, je sais me donner à fond pour atteindre mes objectifs",
+                'Fourth-title': "Efficacité",
+                'Fourth-dsc': "Je sais me montrer efficace afin de réaliser mes projets dans les temps données",
+                'Fifth-title': "Esprit d'équipe",
+                'Fifth-dsc': "Je sais oeuvrer avec les autres et être solidaire afin d'aider mes collègues à la réalisation de nos objectifs."
+            },
+            projects: {
+                /* === Projects === */
+                'Title': 'Projets'
+            },
+            miscellaneous: {
+                /* === Miscellaneous === */
+                'Title': 'Divers',
+                'First-title': "Surf",
+                'First-dsc': "J'aime pratiquer le surf en club lors de mes vacances d'été, sur l'océan Atlantique",
+                'Second-title': "Escalade",
+                'Second-dsc': "Je pratique l'escalade de bloc sur des parcours en intérieur au sein de la salle d'escalade B'up",
+                'Third-title': "Pierres et minéraux",
+                'Third-dsc': "Je montre un intérêt pour les pierres et les minéraux depuis très jeune",
+                'Fourth-title': "Musculation",
+                'Fourth-dsc': "Je fais du sport en salle afin de m'exercer physiquement",
+                'Fifth-title': "Informatique",
+                'Fifth-dsc': "J'aime découvrir la programmation et j'aime développer des outils informatiques",
+                'Sixth-title': "Manga/Anime",
+                'Sixth-dsc': `J'aime lire des mangas et regarder des animes, avec l'exemple du manga et des scans de "Jujutsu Kaisen"`
+            },
+            copyright: 'tous droits réservés'
         }
     }
 };
@@ -65,10 +172,10 @@ i18n
     .init({
         resources,
         lng: 'fr',
-        keySeparator: false,
+        keySeparator: '.',
         interpolation: {
             escapeValue: false
         }
     });
 
-export default i18n
+export default i18n;

@@ -8,7 +8,7 @@ export default function Formation() {
         <li className="nav-lien">
           <Link to="Formation" smooth={true} duration={800}>
             <i className="bx bx-building-house icons" />
-            <span className="text nav-text"> {t('SidTrai')} </span>
+            <span className="text nav-text"> {t('sidebar.SidTrai')} </span>
           </Link>
         </li>
     );

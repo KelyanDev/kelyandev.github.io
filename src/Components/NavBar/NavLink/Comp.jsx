@@ -8,7 +8,7 @@ export default function Competence() {
         <li className="nav-lien">
           <Link to="Competence" smooth={true} duration={800}>
             <i className="bx bx-slider icons" />
-            <span className="text nav-text"> {t('SidSkills')} </span>
+            <span className="text nav-text"> {t('sidebar.SidSkills')} </span>
           </Link>
         </li>
     );

@@ -1,8 +1,10 @@
 import { useState } from "react";
 import data from "./data.json";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);
+    const { t } = useTranslation();
 
     function handleRadioChange(event) {
         setSelectedProject(event.target.id);
@@ -29,10 +31,9 @@ export default function Projects() {
 
     };
 
-
     return (
         <div id="Projet" className="part">
-            <h2 className="titre">Projets</h2>
+            <h2 className="titre">{t('projects.Title')}</h2>
             <br />
             <div className="section projects">
                 <div className="aligne">
