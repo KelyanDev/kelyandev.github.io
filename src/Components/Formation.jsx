@@ -1,10 +1,14 @@
 import { useTranslation } from "react-i18next";
+import { useInView } from "react-intersection-observer";
 
 export default function Formation() {
     const { t } = useTranslation();
+    const { ref, inView } = useInView({
+        threshold: 0,
+    });
 
     return (
-        <div id="Formation" className="part">
+        <div id="Formation" className={`part ${inView ? 'visible' : ''} `} ref={ref}>
             <h2 className="titre">{t('training.Title')}</h2>
             <div className="listing">
                 <h4> {t('training.Train-3-Tit')} </h4>

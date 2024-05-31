@@ -1,10 +1,14 @@
 import { useTranslation } from "react-i18next";
+import { useInView } from "react-intersection-observer";
 
 export default function Exp() {
     const { t } = useTranslation();
+    const { ref, inView } = useInView({
+        threshold: 0,
+    });
 
     return (
-        <div id="Experience" className="part">
+        <div id="Experience" className={`part ${inView ? 'visible' : ''} `} ref={ref}>
             <h2 className="titre">{t('experience.Title')}</h2>
             <br />
             <div className="section exp">

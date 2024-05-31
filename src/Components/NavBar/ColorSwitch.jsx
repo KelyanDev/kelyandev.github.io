@@ -9,7 +9,7 @@ export default function Switch({ isDarkMode, DarkToggle }) {
             <i className="bx bx-moon icons moon" />
             <i className="bx bx-sun icons sun" />
           </div>
-          <span className="mode-text text">{isDarkMode ? t('SidDark') : t('SidWhite')}</span>
+          <span className="mode-text text">{isDarkMode ? t('sidebar.SidDark') : t('sidebar.SidWhite')}</span>
           <div className="activer-switch">
             <span className="switch" onClick={DarkToggle}/>
           </div>

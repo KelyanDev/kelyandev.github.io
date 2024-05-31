@@ -1,19 +1,34 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from "./data.json";
 import { useTranslation } from "react-i18next";
+import { useInView } from 'react-intersection-observer';
 
 export default function Skills() {
     const { t } = useTranslation();
+    const { ref, inView } = useInView({
+        threshold: 0,
+    });
+    const [hasBeenViewed, setHasBeenViewed] = useState(false);
+
+    useEffect(() => {
+        if (inView) {
+            setHasBeenViewed(true);
+        }
+    }, [inView]);
 
     return (
-        <div id="Competence" className="part">
-            <h2 className="titre">{t('skills.Title')}</h2>
-            <br />
-            <h3 className="souligne">{t('skills.Hard-Title')}</h3>
-            <HardSkills />
-            <h3 className="souligne">{t('skills.Soft-Title')}</h3>
-            <SoftSkills />
-            <br /> <br /> <hr />
+        <div id="Competence" className={`part ${inView ? 'visible' : ''} `} ref={ref}>
+            {hasBeenViewed && (
+                <>
+                    <h2 className="titre">{t('skills.Title')}</h2>
+                    <br />
+                    <h3 className="souligne">{t('skills.Hard-Title')}</h3>
+                    <HardSkills />
+                    <h3 className="souligne">{t('skills.Soft-Title')}</h3>
+                    <SoftSkills />
+                    <br /> <br /> <hr />
+                </>
+            )}
         </div>
     );
 }

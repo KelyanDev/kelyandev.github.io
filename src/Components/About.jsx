@@ -1,10 +1,15 @@
 import { useTranslation } from "react-i18next";
+import { useInView } from "react-intersection-observer";
 
 export default function About() {
     const { t } = useTranslation();
+    const { ref, inView } = useInView({
+        threshold: 0, 
+    });
+    
 
     return (
-        <div id="Apropos" className="part">
+        <div id="Apropos" className={`part ${inView ? 'visible' : ''} `} ref={ref}>
             <h2 className="titre"> {t('sidebar.SidAbout')} </h2>
             <br />
             <div className="photo">
