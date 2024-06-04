@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { useInView } from "react-intersection-observer";
 
 export default function CV() {
+    const { t } = useTranslation();
     const { ref, inView } = useInView({
         threshold: 0,
     });
@@ -26,7 +28,7 @@ export default function CV() {
                         <div className="GButton">
                             <a className="down" href="CV_Tournebize-Kélyan.pdf" download="">
                                 <i className="bx bxs-download icon" />
-                                <span className="down"> Télécharger mon CV</span>
+                                <span className="down"> {t('CV')}</span>
                             </a>
                         </div>
                     </div>

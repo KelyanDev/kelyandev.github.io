@@ -46,9 +46,17 @@ const resources = {
                 'Exp-1-P4': "Finally, I had to analyze the petrie dishes to identify if it contained any dangerous bacteria.",
             },
             skills: {
-                /* === Soft skills === */
+                /* === Skills === */
                 'Title': "Skills",
+                /* == Hard Skills == */
                 'Hard-Title': "Hard skills",
+                'Title-list': 'Skills list',
+                'Syst': 'Systems',
+                'Coding': 'Coding',
+                'Net': 'Networks',
+                'Telecoms': 'Telecommunications',
+                'Telepho': 'Telephony',
+                /* == Soft Skills == */
                 'Soft-Title': "Soft skills",
                 "First-title": "Maturity",
                 "First-dsc": "I can accept feedback and comments with the aim of improving myself without adopting a defensive attitude.",
@@ -62,7 +70,14 @@ const resources = {
                 "Fifth-dsc": "I can work with others and be supportive to help my colleagues achieve our goals."
             },
             projects: {
-                'Title': 'Projects'
+                /* === Projects === */
+                'Title': 'Projects',
+                'Numeric': 'Numeric Signal Simulation (SAE22)',
+                'Re-App': 'React App',
+                'Ticket': 'Ticket Management Application (SAE23)',
+                'Data': 'Data analysis (SAE15)',
+                'Aware': 'Awareness of computer hygiene(SAE11)',
+                'Game': 'Gaming console (12th Grade)'
             },
             miscellaneous: {
                 /* === Miscellaneous === */
@@ -80,7 +95,9 @@ const resources = {
                 "Sixth-title": "Manga/Anime",
                 "Sixth-dsc": `I enjoy reading manga and watching anime, with the example of the manga and scans of "Jujutsu Kaisen".`
             },
-            copyright: 'all rights reserved'
+            copyright: 'all rights reserved',
+            CV: 'Download my CV',
+            Mail: 'Mail Address'
         }
     },
     fr: {
@@ -127,9 +144,17 @@ const resources = {
                 'Exp-1-P4': "Enfin, j'ai dû analyser les boîtes de pétries afin de repérer si des bactéries dangereuses étaient présentes."
             },
             skills: {
-                /* === Soft skills === */
+                /* === Skills === */
                 'Title': "Compétences",
+                /* == Hard Skills == */
                 'Hard-Title': "Compétences techniques",
+                'Title-list': 'Liste compétences',
+                'Syst': 'Système',
+                'Coding': 'Programmation',
+                'Net': 'Réseaux',
+                'Telecoms': 'Télécom',
+                'Telepho': 'Téléphonie',
+                /* == Soft Skills == */
                 'Soft-Title': "Qualités",
                 'First-title': "Maturité",
                 'First-dsc': "Je sais recevoir des remarques et des commentaires dans le but de m'améliorer sans adopter une attitude trop défensive",
@@ -144,7 +169,13 @@ const resources = {
             },
             projects: {
                 /* === Projects === */
-                'Title': 'Projets'
+                'Title': 'Projets',
+                'Numeric': 'Simulation de signaux numériques (SAE22)',
+                'Re-App': 'Application React',
+                'Ticket': 'Application de gestion de tickets (SAE23)',
+                'Data': 'Analyse de données (SAE15)',
+                'Aware': "Sensibilisation à l'hygiène informatique(SAE11)",
+                'Game': 'Console de Jeu (Terminale)'
             },
             miscellaneous: {
                 /* === Miscellaneous === */
@@ -162,7 +193,9 @@ const resources = {
                 'Sixth-title': "Manga/Anime",
                 'Sixth-dsc': `J'aime lire des mangas et regarder des animes, avec l'exemple du manga et des scans de "Jujutsu Kaisen"`
             },
-            copyright: 'tous droits réservés'
+            copyright: 'tous droits réservés',
+            CV: 'Télécharger mon CV',
+            Mail: 'Adresse Mail'
         }
     }
 };

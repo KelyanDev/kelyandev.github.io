@@ -35,6 +35,7 @@ export default function Skills() {
 
 function HardSkills() {
     const [selectedComp, setSelectedComp] = useState(null);
+    const { t } = useTranslation();
 
     function handleRadioChange(event) {
         setSelectedComp(event.target.id);
@@ -92,33 +93,33 @@ function HardSkills() {
         <div className="section AffComp">
             <div>
                 <div className="aligne">
-                    <h4>Liste compétences</h4>
+                    <h4>{t('skills.Title-list')}</h4>
                 </div>
                 <div className="aligne select">
                     <label className="container" htmlFor="Syst">
                         <input type="radio" id="Syst" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
-                        <span className="checkmark"> Système</span>
-                        Système
+                        <span className="checkmark"> {t('skills.Syst')}</span>
+                        {t('skills.Syst')}
                     </label>
                     <label className="container" htmlFor="Progra">
                         <input type="radio" id="Progra" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
-                        <span className="checkmark"> Programmation</span>
-                        Programmation
+                        <span className="checkmark"> {t('skills.Coding')}</span>
+                        {t('skills.Coding')}
                     </label>
                     <label className="container">
                         <input type="radio" id="Conf" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
-                        <span className="checkmark"> Réseau </span>
-                        Réseau
+                        <span className="checkmark"> {t('skills.Net')} </span>
+                        {t('skills.Net')}
                     </label>
                     <label className="container">
                         <input type="radio" id="Analy" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
-                        <span className="checkmark"> Télécom</span>
-                        Télécom
+                        <span className="checkmark"> {t('skills.Telecoms')}</span>
+                        {t('skills.Telecoms')}
                     </label>
                     <label className="container">
                         <input type="radio" id="Tél" name="Compétences" className="RadComp" onChange={handleRadioChange}/> 
-                        <span className="checkmark"> Téléphonie</span>
-                        Téléphonie
+                        <span className="checkmark"> {t('skills.Telepho')}</span>
+                        {t('skills.Telepho')}
                     </label>
                     <label className="container">
                         <input type="radio" id="Lang" name="Compétences" className="RadComp" onChange={handleRadioChange}/>

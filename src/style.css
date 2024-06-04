@@ -94,7 +94,7 @@ body.dark{
 .titre{
 	background-color: var(--primary-color);
 	color: var(--title-color);
-	border-radius: 6px;
+	border-radius: 10px;
 	padding-left: 8px;
 	transition: var(--tran-05);
 }
@@ -131,7 +131,7 @@ body.dark{
 
 .part.visible {
 	opacity: 1;
-	transition: opacity 0.8s ease;
+	transition: opacity 0.5s ease;
 }
 
 

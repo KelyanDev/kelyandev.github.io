@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useInView } from "react-intersection-observer";
 
 export default function Contact() {
+    const { t } = useTranslation();
     const { ref, inView} = useInView({
         threshold: 0,
     });
@@ -23,7 +24,7 @@ export default function Contact() {
                     <div className="Qligne">
                         <div className="cont section">
                             <i className="bx bxl-gmail" />
-                            <h4> Adresse mail</h4>
+                            <h4> {t('Mail')}</h4>
                             <div>
                                 <p className="text"> kelyan.tournebize@etu.uca.fr</p>
                             </div>

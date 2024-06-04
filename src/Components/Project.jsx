@@ -55,23 +55,23 @@ export default function Projects() {
                                 <hr />
                                 <label className="containerproj">
                                     <input type="radio" id="SAE22" name="Projets" className="RadProj" onChange={handleRadioChange}/>
-                                    <span className="checkmark"> Simulation de signaux numériques (SAE22)</span>
-                                    Simulation de signaux numériques (SAE22)
+                                    <span className="checkmark"> {t('projects.Numeric')}</span>
+                                    {t('projects.Numeric')}
                                 </label>
                                 <label className="containerproj">
                                     <input type="radio" id="RToDo" name="Projets" className="RadProj" onChange={handleRadioChange}/>
-                                    <span className="checkmark"> Application React</span>
-                                    Application React
+                                    <span className="checkmark"> {t('projects.Re-App')}</span>
+                                    {t('projects.Re-App')}
                                 </label>
                                 <label className="containerproj">
                                     <input type="radio" id="Ticket" name="Projets" className="RadProj" onChange={handleRadioChange}/>
-                                    <span className="checkmark"> Application de gestion de tickets (SAE23)</span>
-                                    Application de gestion de tickets (SAE23)
+                                    <span className="checkmark"> {t('projects.Ticket')}</span>
+                                    {t('projects.Ticket')}
                                 </label>
                                 <label className="containerproj">
                                     <input type="radio" id="Vacation" name="Projets" className="RadProj" onChange={handleRadioChange}/>
-                                    <span className="checkmark"> Analyse de données (SAE15)</span>
-                                    Analyse de données (SAE15)
+                                    <span className="checkmark"> {t('projects.Data')}</span>
+                                    {t('projects.Data')}
                                 </label>
                                 <label className="containerproj">
                                     <input type="radio" id="Portfolio" name="Projets" className="RadProj" onChange={handleRadioChange}/>
@@ -80,13 +80,13 @@ export default function Projects() {
                                 </label>
                                 <label className="containerproj">
                                     <input type="radio" id="SAE11" name="Projets" className="RadProj" onChange={handleRadioChange}/>
-                                    <span className="checkmark"> Sensibilisation hygiène informatique (SAE11)</span>
-                                    Sensibilisation hygiène informatique (SAE11)
+                                    <span className="checkmark"> {t('projects.Aware')}</span>
+                                    {t('projects.Aware')}
                                 </label>
                                 <label className="containerproj">
                                     <input type="radio" id="Hatsu" name="Projets" className="RadProj" onChange={handleRadioChange}/>
-                                    <span className="checkmark"> Console de jeu (Terminale)</span>
-                                    Console de jeu (Terminale)
+                                    <span className="checkmark"> {t('projects.Game')}</span>
+                                    {t('projects.Game')}
                                 </label>
                             </div>
                             <div id="projets">

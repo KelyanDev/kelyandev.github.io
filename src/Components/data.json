@@ -87,6 +87,17 @@
 			"<p class='compR text resume'> <b>Anglais - B2/C1</b> / <b>Espagnol - B1</b> </p>"
         ]
     },
+
+
+    
+
+
+
+
+
+
+
+
     "SAE22": {
         "description": [
             "<h3 class='souligne'> Simulation de signaux numériques (SAE22) </h3>",
@@ -130,7 +141,7 @@
 			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de coder la partie <b>backend</b> du site, afin qu'un utilisateur puisse créer un ticket,",
 				" suivre son avancement, ou encore le supprimer, mais aussi afin qu'un administrateur puisse les gérer, contacter l'utilisateur et les affecter à un technicien support. </p>",
 			"<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet comment gérer et interroger une base de données MongoDB en utilisant NodeJS ainsi que le framework Express</p> <br />",
-			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet sera téléchargeable via mon GitHub, depuis la section contact</p>",
+			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact</p>",
 			"<p class='texte'>Pour ce projet, je n'ai pas encore été noté</p> <br />",
 			"<p class='texte italique'>Images du projet: (L'interface, le projet, la base de donnée)</p>",
 			"<div class='aligne'>",
