@@ -4,12 +4,13 @@ import { useInView } from "react-intersection-observer";
 export default function Exp() {
     const { t } = useTranslation();
     const { ref, inView } = useInView({
-        threshold: 0,
+        threshold: 0.1,
     });
 
     return (
         <div id="Experience" className={`part ${inView ? 'visible' : ''} `} ref={ref}>
             <h2 className="titre">{t('experience.Title')}</h2>
+            <div className="sous-ligne"></div>
             <br />
             <div className="section exp">
                 <div className="exp-im">
@@ -23,7 +24,7 @@ export default function Exp() {
                     <p className="text"> {t('experience.Exp-1-P4')}</p>
                 </div>
             </div>
-            <br /> <hr />
+            <br /> <br />
         </div>
     );
 }

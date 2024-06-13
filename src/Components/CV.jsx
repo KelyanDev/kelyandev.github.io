@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 export default function CV() {
     const { t } = useTranslation();
     const { ref, inView } = useInView({
-        threshold: 0,
+        threshold: 0.1,
     });
     const [ hasBeenViewed, setHasBeenViewed ] = useState(false);
 
@@ -20,6 +20,7 @@ export default function CV() {
             { hasBeenViewed && (
                 <>
                     <h2 className="titre">CV</h2>
+                    <div className="sous-ligne"></div>
                     <br />
                     <div className="aligne">
                         <img className="cv" src={`${process.env.PUBLIC_URL}/Divers/CV_Tournebize-Kélyan-1.png`} alt="" />
@@ -32,7 +33,7 @@ export default function CV() {
                             </a>
                         </div>
                     </div>
-                    <br /> <hr />
+                    <br /> <br />
                 </>
             )}
         </div>

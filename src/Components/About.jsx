@@ -4,13 +4,14 @@ import { useInView } from "react-intersection-observer";
 export default function About() {
     const { t } = useTranslation();
     const { ref, inView } = useInView({
-        threshold: 0, 
+        threshold: 0.1,
     });
     
 
     return (
         <div id="Apropos" className={`part ${inView ? 'visible' : ''} `} ref={ref}>
             <h2 className="titre"> {t('sidebar.SidAbout')} </h2>
+            <div className="sous-ligne"></div>
             <br />
             <div className="photo">
                 <img src={`${process.env.PUBLIC_URL}/photo.jpg`} alt="" id="pdp" />
@@ -21,7 +22,7 @@ export default function About() {
         <p className="texte" dangerouslySetInnerHTML={{ __html: t('about.Part2')}}></p>
         <br />
         <p className="texte" dangerouslySetInnerHTML={{ __html: t('about.Part3')}}></p>
-        <br /> <br /> <hr />
+        <br /> <br />
       </div>
     );
 }

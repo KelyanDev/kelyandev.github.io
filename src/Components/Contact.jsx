@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 export default function Contact() {
     const { t } = useTranslation();
     const { ref, inView} = useInView({
-        threshold: 0,
+        threshold: 0.1,
     });
     const [ hasBeenViewed, setHasBeenViewed] = useState(false);
 
@@ -20,6 +20,7 @@ export default function Contact() {
             { hasBeenViewed && (
                 <>
                     <h2 className="titre">Contact</h2>
+                    <div className="sous-ligne"></div>
                     <br />
                     <div className="Qligne">
                         <div className="cont section">
@@ -54,7 +55,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-                <br /> <hr />
+                <br /> <br />
                 <Footer />
                 </>
             )}

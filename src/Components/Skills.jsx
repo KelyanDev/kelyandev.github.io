@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 export default function Skills() {
     const { t } = useTranslation();
     const { ref, inView } = useInView({
-        threshold: 0,
+        threshold: 0.1,
     });
     const [hasBeenViewed, setHasBeenViewed] = useState(false);
 
@@ -21,12 +21,13 @@ export default function Skills() {
             {hasBeenViewed && (
                 <>
                     <h2 className="titre">{t('skills.Title')}</h2>
+                    <div className="sous-ligne"></div>
                     <br />
                     <h3 className="souligne">{t('skills.Hard-Title')}</h3>
                     <HardSkills />
                     <h3 className="souligne">{t('skills.Soft-Title')}</h3>
                     <SoftSkills />
-                    <br /> <br /> <hr />
+                    <br /> <br /> <br />
                 </>
             )}
         </div>

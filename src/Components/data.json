@@ -97,21 +97,40 @@
 
 
 
-
+    "CompanyNetwork": {
+        "description": [
+            "<h3 class='souligne'> Projet Intégratif (SAE24) </h3>",
+            "<div class='descript'>",
+            "<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de mettre en place un réseau d'entreprise fonctionnel.</p>",
+            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était d'utiliser, par groupe de 4/5, l'ensemble des compétences que nous avions acquises au cours de notre première année de BUT afin de mettre en place un réseau d'entreprise. </p>",
+            "<p class='texte'><b class='souligne'>Mission:</b> Ma mission était, dans un premier temps, d'installer <b>Debian</b> sur un mini-pc afin d'en faire un pc serveur. J'ai par la suite configurer notre <b>routeur</b> ainsi que notre <b>switch</b> afin de mettre en place un <b>routage inter-vlan</b> au sein de notre infrastructure.</p>",
+            "<p class='texte'> Par la suite, j'ai du configurer un service <b>DHCP</b> sur notre serveur Debian, ainsi que <b>Apache</b>, <b>NodeJS</b> et <b>MongoDB</b> afin que notre application web de gestion de ticket puisse fonctionner (Voir projet SAE23).</p>",
+            "<br />",
+            "<p class='texte'><b class='souligne'>Résultat:</b> Les applications web de ce projet sont disponibles sur mon Github (Dans TicketManagement et Autotech's Website)</p>",
+            "<br />",
+            "<p class='texte italique'>Images du projet: (,La répartition des tâches,)</p>",
+            "<div class='aligne'>",
+                "<img src='' class='screens grand' onclick='window.open(this.src)' alt=''>",
+                "<img src='ScreenProjets/SAE24-2.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+                "<img src='' class='screens grand' onclick='window.open(this.src)' alt=''>",
+            "</div> <br> <br> </div>"
+        ]
+    },
     "SAE22": {
         "description": [
             "<h3 class='souligne'> Simulation de signaux numériques (SAE22) </h3>",
             "<div class='descript'>",
             "<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de simuler des signaux numériques sous MATLAB</p>",
-            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de simuler et d'étudier des signaux de différents types. </p>",
+            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de simuler et d'étudier des signaux de différents types. Par la suite, par groupe de 2, nous avons du présenter à l'oral ce projet. </p>",
             "<p class='texte'><b class='souligne'>Mission:</b> Ma mission était donc de découvrir le fonctionnement de l'environnement MATLAB afin de réaliser l'étude d'un signal temporel et d'un canal Radio.</p>",
-            "<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet le fonctionnement de MATLAB, afin de générer, d'échantillonner et d'afficher ces signaux ainsi que leurs spectres</p> <br />",
-            "<p class='texte italique'>Images du projet: ()</p>",
+            "<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet le fonctionnement de <b>MATLAB</b>, afin de générer, d'échantillonner et d'afficher ces signaux ainsi que leurs spectres</p> <br />", 
+            "<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact</p> <br />",
+            "<p class='texte italique'>Images du projet: (le code pour un canal, le canal, le code d'un signal sinusoïdal)</p>",
             "<div class='aligne'>",
-                "<img src='' class='screens grand' onclick='window.open(this.src)' alt=''>",
-                "<img src='' class='screens grand' onclick='window.open(this.src)' alt=''>",
-                "<img src='' class='screens grand' onclick='window.open(this.src)' alt=''>",
-            "</div> <br> <br> </div>"
+                "<img src='ScreenProjets/SAE22-1.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+                "<img src='ScreenProjets/SAE22-2.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+                "<img src='ScreenProjets/SAE22-3.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
+            "</div><br> <br> </div>"
         ]
     },
     "RToDo": {
@@ -139,10 +158,10 @@
 			"<p class='texte'> <b class='souligne'>Objectif:</b> L'objectif de ce projet était de mettre en place un outil de support pour le service informatique de l'université, en créant un site web de gestion",
 				" de tickets de support. </p>",
 			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de coder la partie <b>backend</b> du site, afin qu'un utilisateur puisse créer un ticket,",
-				" suivre son avancement, ou encore le supprimer, mais aussi afin qu'un administrateur puisse les gérer, contacter l'utilisateur et les affecter à un technicien support. </p>",
-			"<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet comment gérer et interroger une base de données MongoDB en utilisant NodeJS ainsi que le framework Express</p> <br />",
+				" suivre son avancement, ou encore le supprimer, mais aussi afin qu'un administrateur puisse les gérer, contacter l'utilisateur et les affecter à un technicien support. Par la suite, j'ai décider de recoder la partie <b>frontend</b> de l'application afin de l'améliorer. </p>",
+			"<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet comment réaliser une application web complète à l'aide d'un frontend <b>React</b>, d'un backend <b>NodeJS</b> ainsi que <b>Express</b> et d'une base de donnée <b>MongoDB</b>.</p> <br />",
 			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact</p>",
-			"<p class='texte'>Pour ce projet, je n'ai pas encore été noté</p> <br />",
+			"<p class='texte'>Pour ce projet, j'ai obtenu la note de 18/20</p> <br />",
 			"<p class='texte italique'>Images du projet: (L'interface, le projet, la base de donnée)</p>",
 			"<div class='aligne'>",
                 "<img src='ScreenProjets/SAE23-1.PNG' class='screens grand' onclick='window.open(this.src)'' alt=''>",

@@ -7,7 +7,7 @@ export default function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);
     const { t } = useTranslation();
     const { ref, inView } = useInView({
-        threshold: 0,
+        threshold: 0.1,
     });
     const [ hasBeenViewed, setHasBeenViewed ] = useState(false);
 
@@ -47,12 +47,18 @@ export default function Projects() {
             { hasBeenViewed && (
                 <>
                     <h2 className="titre">{t('projects.Title')}</h2>
+                    <div className="sous-ligne"></div>
                     <br />
                     <div className="section projects">
                         <div className="aligne">
                             <div className="Affprojets select">
                                 <h4>Liste projets</h4>
                                 <hr />
+                                <label className="containerproj">
+                                    <input type="radio" id="CompanyNetwork" name="Projets" className="RadProj" onChange={handleRadioChange}/>
+                                    <span className="checkmark"> {t('projects.Integration')}</span>
+                                    {t('projects.Integration')}
+                                </label>
                                 <label className="containerproj">
                                     <input type="radio" id="SAE22" name="Projets" className="RadProj" onChange={handleRadioChange}/>
                                     <span className="checkmark"> {t('projects.Numeric')}</span>
@@ -94,7 +100,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <hr />
+                    <br />
                 </>
             )}
         </div>

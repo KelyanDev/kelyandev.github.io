@@ -71,6 +71,7 @@ const resources = {
             },
             projects: {
                 /* === Projects === */
+                'Integration': 'Integrative Project (SAE24)',
                 'Title': 'Projects',
                 'Numeric': 'Numeric Signal Simulation (SAE22)',
                 'Re-App': 'React App',
@@ -169,6 +170,7 @@ const resources = {
             },
             projects: {
                 /* === Projects === */
+                'Integration': 'Projet Intégratif (SAE24)',
                 'Title': 'Projets',
                 'Numeric': 'Simulation de signaux numériques (SAE22)',
                 'Re-App': 'Application React',

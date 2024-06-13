@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 export default function Other() {
     const { t } = useTranslation();
     const { ref, inView } = useInView({
-        threshold: 0,
+        threshold: 0.1,
     });
     const [ hasBeenViewed, setHasBeenViewed ] = useState(false);
 
@@ -20,6 +20,7 @@ export default function Other() {
             { hasBeenViewed && (
                 <>
                     <h2 className="titre">{t('miscellaneous.Title')}</h2>
+                    <div className="sous-ligne"></div>
                     <br />
                     <div className="aligne">
                         <div className="passions section">
@@ -51,7 +52,7 @@ export default function Other() {
                             <p className="text aligne"> {t('miscellaneous.Sixth-dsc')} </p>
                         </div>
                     </div>
-                    <br /> <hr />
+                    <br /> <br />
                 </>
             )}
         </div>
