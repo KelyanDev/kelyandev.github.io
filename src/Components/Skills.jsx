@@ -143,7 +143,7 @@ function SoftSkills() {
         <>  
         <div className="Qligne">
             <div className="qualit section">
-                <i className="bx bx-user-circle" />
+                <i className="bx bx-search" />
                 <h4> {t('skills.First-title')}</h4>
                 <div>
                     <p className="text"> {t('skills.First-dsc')} </p>
