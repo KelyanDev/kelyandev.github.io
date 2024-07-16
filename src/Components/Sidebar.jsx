@@ -13,10 +13,13 @@ import Contact from "./NavBar/NavLink/Contact";
 import LangSwitch from "./NavBar/NavLink/Language";
 import { useTranslation } from "react-i18next";
 
+import useActiveSection from "../Hooks/useActiveSection";
+
 
 export default function Sidebar({ isDarkMode, DarkToggle }) {
     const [isSidebarClosed, setIsSidebarClosed] = useState(false);
     const { i18n } = useTranslation();
+    const activeSection = useActiveSection(['Apropos', 'Formation', 'Experience', 'Competence', 'Projet', 'Divers', 'CV', 'Contact']);
 
     function toggleSidebar() {
         setIsSidebarClosed(!isSidebarClosed);
@@ -30,20 +33,21 @@ export default function Sidebar({ isDarkMode, DarkToggle }) {
     return (
         <nav className={`sidebar ${isSidebarClosed ? '' : 'close'}`}>
             <HeaderNav toggleSidebar={toggleSidebar} />
+            <div className="menu-line" />
             <div className="menu-bar">
                 <ul className="menu-lien">
-                    <Default />
-                    <Formation />
-                    <Experience />
-                    <Competence />
-                    <Projet />
-                    <Divers />
-                    <CV />
-                    <Contact />
+                    <Default activeSection={activeSection}/>
+                    <Formation activeSection={activeSection}/>
+                    <Experience activeSection={activeSection}/>
+                    <Competence activeSection={activeSection}/>
+                    <Projet activeSection={activeSection}/>
+                    <Divers activeSection={activeSection}/>
+                    <CV activeSection={activeSection}/>
+                    <Contact activeSection={activeSection}/>
                 </ul>
                 <ul className="contenu-bas">
                     <LangSwitch changeLang={changeLanguage}/>
-                    <hr/>
+                    <div className="menu-line" />
                     <Switch isDarkMode={isDarkMode} DarkToggle={DarkToggle}/>
                 </ul>
             </div>

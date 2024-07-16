@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
 
-export default function Experience() {
+export default function Experience({ activeSection }) {
   const { t } = useTranslation();
 
     return (
-        <li className="nav-lien">
+        <li className={`nav-lien ${activeSection === 'Experience' ? 'current-sec' : ''}`}>
           <Link to="Experience" smooth={true} duration={800}>
             <i className="bx bx-briefcase-alt icons" />
             <span className="text nav-text"> {t('sidebar.SidExp')} </span>

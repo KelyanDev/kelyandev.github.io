@@ -18,8 +18,8 @@ const resources = {
             },
             about: {
                 /* === About me === */
-                'Title': 'First year student in Network and Telecommunications',
-                'Part1': "My name is Tournebize Kélyan, I'm 18 years old and I'm currenctly a first year student in <b>Networks and Telecommunications</b>.",
+                'Title': 'Second year student in Network and Telecommunications',
+                'Part1': "My name is <b>Tournebize Kélyan</b>, I'm 18 years old and I have just completed my first year of a <b>Networks and Telecommunications</b> Bachelor.",
                 'Part2': `After graduating from a General Baccalaureate with Mathematics and Numerical & Computer Sciences specialties (NSI in France),
                     I decided to join a training course in Networks and Telecommunications in order to be able to follow the <b>Cybersecurity</b> course offered upon the second year,
                     but also for the possibility of following an <b>apprenticeship</b>, during the second and third years of study.`,
@@ -30,11 +30,11 @@ const resources = {
             training: {
                 /* === Training course === */
                 'Title': "Training course",
-                'Train-3-Tit': "January 2024",
-                'Train-3-Desc': "First semester in Networks and Telecommunications validation",
-                'Train-2-Desc': "First year in Networks et Telecommunications",
+                'Train-3-Tit': "July 2024",
+                'Train-3-Desc': "First year completion of a bachelor in Networks and Telecommunications",
+                'Train-2-Desc': "First year of a bachelor in Networks and Telecommunications",
                 'Train-1-Tit': "June 2023",
-                'Train-1-Desc': "Graduating from a General Baccalaureate with Mathematics and Numeric & Computer Science (NSI) specialties, with good honors",
+                'Train-1-Desc': "Graduating from a French Baccalaureate with Mathematics and Numeric & Computer Science (NSI) specialties, with honors",
             },
             experience: {
                 /* === Professional Experience === */
@@ -117,8 +117,8 @@ const resources = {
                 },
             about: {
                 /* === About me === */
-                Title: 'Etudiant en première année de BUT Réseaux et Télécommunications',
-                Part1: "Je m'appelle Tournebize Kélyan, j'ai 18 ans, et je suis actuellement étudiant en première année de BUT en <b>Réseaux et Télécommunications</b>.",
+                Title: 'Etudiant en deuxième année de BUT Réseaux et Télécommunications',
+                Part1: "Je m'appelle <b>Tournebize Kélyan</b>, j'ai 18 ans, et j'ai récemment validé ma première année de BUT en <b>Réseaux et Télécommunications</b>.",
                 Part2: `Après avoir passé un baccalauréat Général avec pour spécialités Mathématiques et Numérique et Sciences Informatiques (NSI),
                     j'ai décidé d'intégrer une formation de BUT en Réseaux et Télécommunications afin de pouvoir suivre le parcours <b>Cybersécurité</b> proposé dès la deuxième année,
                     mais aussi pour la possibilité de faire de l'<b>alternance</b>, en deuxième et en troisième année.`,
@@ -129,8 +129,8 @@ const resources = {
             training: {
                 /* === Training course === */
                 'Title': "Formation",
-                'Train-3-Tit': "Janvier 2024",
-                'Train-3-Desc': "Validation premier semestre de BUT en Réseaux et Télécommunications",
+                'Train-3-Tit': "Juillet 2024",
+                'Train-3-Desc': "Validation première année de BUT Réseaux et Télécommunications",
                 'Train-2-Desc': "Première année de BUT en Réseaux et Télécommunications",
                 'Train-1-Tit': "Juin 2023",
                 'Train-1-Desc': "Obtention d'un Baccalauréat Général spécialités Maths et NSI, mention assez bien"
@@ -161,9 +161,9 @@ const resources = {
                 'First-dsc': "Je suis capable de prendre des initiatives afin de trouver par moi-même la solution aux problèmes que je rencontre",
                 'Second-title': "Persévérant",
                 'Second-dsc': "Lorsque je rencontre des difficultés en projet, je sais me montrer persévérant afin de trouver la solution à ce problème",
-                'Third-title': "Passion",
+                'Third-title': "Passionné",
                 'Third-dsc': "Lorsque je suis intéressé par un sujet, je sais me donner à fond pour atteindre mes objectifs",
-                'Fourth-title': "Efficacité",
+                'Fourth-title': "Efficace",
                 'Fourth-dsc': "Je sais me montrer efficace afin de réaliser mes projets dans les temps données",
                 'Fifth-title': "Esprit d'équipe",
                 'Fifth-dsc': "Je sais oeuvrer avec les autres et être solidaire afin d'aider mes collègues à la réalisation de nos objectifs."

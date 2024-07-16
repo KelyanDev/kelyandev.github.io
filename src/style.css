@@ -12,6 +12,7 @@
 	/* ===== Couleurs Primaires ===== */
 	--primary-color: #308EC4; 			/* Curious Blue 500 */
 	--sub-title-color: #56aada; 		/* Curious Blue 400 */
+	--current-color: #60BDEB;			/* Curious Blue 350 */
 	--jauge-color: #92c9e7; 			/* Curious Blue 300 */
 	--back-p-color: #c5e1f2; 			/* Curious Blue 200 */
 	--body-color: #e5f0f9; 			/* Curious Blue 100 */
@@ -22,6 +23,7 @@
 	--toggle-color: #DDD;
 	--text-color: #707070;
 	--title-color: #F6F5FF;
+	--current-color-text: #faf9fb;
 
 	/* ===== Transition ===== */
 	--tran-02: all 0.2s ease;
@@ -43,6 +45,7 @@ body.dark{
 	--primary-color: #264154; 			/* Elephant 900 */
 	--sub-title-color: #294c63; 		/* Elephant 800 */
 	--jauge-color: #2d5a77; 			/* Elephant 700 */
+	--current-color: #60BDEB;			/* Curious Blue 350 */
 	--back-p-color: #488aaf; 
 	--body-color: #18191A;				/* Woodsmoke 950 */
 	--primary-color-light: #3A3B3C; 	/* Tuatara 900 */
@@ -172,7 +175,7 @@ body.dark{
  /* ===== Menu de naviguation ===== */
 
  .headerNav .menu{
-	color: var(--text-color);
+	color: var(--primary-color);
 	transition: var(--tran-05);
 }
 
@@ -191,7 +194,16 @@ body.dark{
 }
 
 .sidebar .menu-bar{
-	margin-top: 35px;
+	margin-top: 15px;
+}
+
+.menu-line{
+	height: 3px;
+	width: 100%;
+	background-color: var(--primary-color);
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .sidebar.close .text{
@@ -262,9 +274,20 @@ body.dark{
 }
 
 .sidebar .nav-lien{
-	background: var(--primary-color-light);
+	background: var(--body-color);
 	border-radius: 6px;
 	transition: var(--tran-05);
+}
+
+.sidebar .current-sec{
+	background: var(--current-color);
+	transition: var(--tran-05);
+}
+
+.sidebar .current-sec .icons,
+.sidebar .current-sec .text{
+	color: var(--current-color-text);
+	transition: var(--tran-04);
 }
  
 .sidebar button{
@@ -314,7 +337,7 @@ body.dark .sidebar .headerNav .toggle{
 }
  
 .menu-bar .mode{
-	background: var(--primary-color-light);
+	background: var(--body-color);
 	border-radius: 6px;
 	position: relative;
 	transition: var(--tran-05);
@@ -358,8 +381,28 @@ body.dark .menu-bar .mode i.sun{
 	align-items: center;
 	justify-content: center;
 	border-radius: 6px;
-	background: var(--primary-color-light);
+	background: var(--body-color);
 	transition: var(--tran-05);
+}
+
+body.dark .menu-bar .mode{
+	background: var(--primary-color-light);
+}
+
+body.dark .menu-bar .mode .activer-switch{
+	background: var(--primary-color-light);
+}
+
+body.dark .sidebar .nav-lien{
+	background: var(--primary-color-light);
+}
+
+body.dark .sidebar .current-sec{
+	background: var(--primary-color);
+}
+
+body.dark .sidebar li a:hover{
+	background: var(--jauge-color);
 }
  
 .activer-switch .switch{
