@@ -19,17 +19,17 @@ const resources = {
             about: {
                 /* === About me === */
                 'Title': 'Second year student in Network and Telecommunications',
-                'Part1': "My name is <b>Tournebize Kélyan</b>, I'm 18 years old and I have just completed my first year of a <b>Networks and Telecommunications</b> Bachelor.",
+                'Part1': "My name is <b>Tournebize Kélyan</b>, I'm 18 years old and I'm a second year student in <b>Networks and Telecommunications</b> Bachelor.",
                 'Part2': `After graduating from a General Baccalaureate with Mathematics and Numerical & Computer Sciences specialties (NSI in France),
                     I decided to join a training course in Networks and Telecommunications in order to be able to follow the <b>Cybersecurity</b> course offered upon the second year,
                     but also for the possibility of following an <b>apprenticeship</b>, during the second and third years of study.`,
-                'Part3': `Currently, I am <b>looking for</b> a <b>work-study contract</b> starting in September 2024,
-                    on a <b>pace</b> of <b>1 month / 1 month</b>, in order to work with a company for one or two years and strengthen my skills
+                'Part3': `Currently, I am <b>looking for</b> a <b>internship contract</b> starting in Spring 2025, for a period of <b>2 months</b>, in order to work with a company and strengthen my skills
                     while understanding the challenges of the professional environment.`,
             },
             training: {
                 /* === Training course === */
                 'Title': "Training course",
+                'Train-4-Desc': 'Second year student of a bachelor in Networks and Telecommunications',
                 'Train-3-Tit': "July 2024",
                 'Train-3-Desc': "First year completion of a bachelor in Networks and Telecommunications",
                 'Train-2-Desc': "First year of a bachelor in Networks and Telecommunications",
@@ -52,6 +52,7 @@ const resources = {
                 'Hard-Title': "Hard skills",
                 'Title-list': 'Skills list',
                 'Syst': 'Systems',
+                'Secu': 'Security',
                 'Coding': 'Coding',
                 'Net': 'Networks',
                 'Telecoms': 'Telecommunications',
@@ -118,17 +119,18 @@ const resources = {
             about: {
                 /* === About me === */
                 Title: 'Etudiant en deuxième année de BUT Réseaux et Télécommunications',
-                Part1: "Je m'appelle <b>Tournebize Kélyan</b>, j'ai 18 ans, et j'ai récemment validé ma première année de BUT en <b>Réseaux et Télécommunications</b>.",
+                Part1: "Je m'appelle <b>Tournebize Kélyan</b>, j'ai 18 ans, et je suis étudiant en deuxième année de BUT en <b>Réseaux et Télécommunications</b>.",
                 Part2: `Après avoir passé un baccalauréat Général avec pour spécialités Mathématiques et Numérique et Sciences Informatiques (NSI),
                     j'ai décidé d'intégrer une formation de BUT en Réseaux et Télécommunications afin de pouvoir suivre le parcours <b>Cybersécurité</b> proposé dès la deuxième année,
                     mais aussi pour la possibilité de faire de l'<b>alternance</b>, en deuxième et en troisième année.`,
-                Part3: `Actuellement, je suis à la <b>recherche</b> d'un <b>contrat d'alternance</b> à compter de Septembre 2024,
-                    sur un <b>rythme</b> de <b>1 mois / 1 mois</b>, afin de travailler avec une entreprise pendant une ou deux années et renforcer mes compétences
+                Part3: `Actuellement, je suis à la <b>recherche</b> d'un <b>stage</b> à compter de Printemps 2025,
+                    pour une <b>durée</b> de <b>2 mois</b>, afin de travailler avec une entreprise et renforcer mes compétences
                     tout en comprenant les enjeux du milieu professionnel.`
             },
             training: {
                 /* === Training course === */
                 'Title': "Formation",
+                'Train-4-Desc': 'Deuxième année de BUT Réseaux et Télécommunications',
                 'Train-3-Tit': "Juillet 2024",
                 'Train-3-Desc': "Validation première année de BUT Réseaux et Télécommunications",
                 'Train-2-Desc': "Première année de BUT en Réseaux et Télécommunications",
@@ -150,6 +152,7 @@ const resources = {
                 /* == Hard Skills == */
                 'Hard-Title': "Compétences techniques",
                 'Title-list': 'Liste compétences',
+                'Secu': 'Sécurité',
                 'Syst': 'Système',
                 'Coding': 'Programmation',
                 'Net': 'Réseaux',

@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 export default function Skills() {
     const { t } = useTranslation();
     const { ref, inView } = useInView({
-        threshold: 0.1,
+        threshold: 0,
     });
     const [hasBeenViewed, setHasBeenViewed] = useState(false);
 
@@ -101,6 +101,11 @@ function HardSkills() {
                         <input type="radio" id="Syst" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
                         <span className="checkmark"> {t('skills.Syst')}</span>
                         {t('skills.Syst')}
+                    </label>
+                    <label className="container" htmlFor="Secu">
+                        <input type="radio" id="Secu" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
+                        <span className="checkmark"> {t('skills.Secu')}</span>
+                        {t('skills.Secu')}
                     </label>
                     <label className="container" htmlFor="Progra">
                         <input type="radio" id="Progra" name="Compétences" className="RadComp" onChange={handleRadioChange}/>

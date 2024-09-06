@@ -7,7 +7,7 @@ export default function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);
     const { t } = useTranslation();
     const { ref, inView } = useInView({
-        threshold: 0.1,
+        threshold: 0,
     });
     const [ hasBeenViewed, setHasBeenViewed ] = useState(false);
 
