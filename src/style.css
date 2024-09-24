@@ -528,17 +528,26 @@ body.dark .switch::before{
 	padding: 10px;
 }
 
-.exp-im img{
+.exp-im #calou{
 	width: 270px;
 	margin-top: 20px;
 	height: 188px;
 	border-radius: 10px;
 }
 
+.exp-im #bde{
+	height: 180px;
+	width: 180px;
+	margin: 10px;
+	margin-right: 40px;
+}
+
 .exp-im{
+	display: flex;
 	width: -moz-fit-content;
 	width: fit-content;
 	align-items: center;
+	justify-content: center;
 }
 
 /* Compétences  */

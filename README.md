@@ -19,15 +19,10 @@ Since version 2.0, fully developed in React
 >[!NOTE]
 >React Version: 18.3.1   
 >ReactDOM Version: 18.3.1
+>The website is almost fully optimised for tiny screens like phones
 
 
 >[!IMPORTANT]  
 >You may encounter visual problems on browsers like Firefox  
 >Recommended browsers: Chrome, Edge   
 
-<hr>
-
->[!WARNING]
->The website is not yet optimised for tiny screens like phones, I'll do that in a later update
-
-<hr>
