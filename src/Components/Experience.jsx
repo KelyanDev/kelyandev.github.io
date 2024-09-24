@@ -34,7 +34,7 @@ export default function Exp() {
                     <p className="text"> {t('experience.Exp-2-P4')}</p>
                 </div>
                 <div className="exp-im">
-                    <img src={`${process.env.PUBLIC_URL}/Divers/Logo-bde.png`} className="screens" id="bde" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/Divers/Logo-BDE.png`} className="screens" id="bde" alt="" />
                 </div>
             </div>
 
